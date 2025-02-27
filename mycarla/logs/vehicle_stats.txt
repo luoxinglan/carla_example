@@ -1,0 +1,9788 @@
+[
+  {
+    "time": 0.0,
+    "speed": 0.0,
+    "acceleration": null,
+    "min_ttc": null
+  },
+  {
+    "time": 0.05,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 0.1,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 0.15,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 0.2,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 0.25,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 0.3,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 0.35,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 0.4,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 0.45,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 0.5,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 0.55,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 0.6,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 0.65,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 0.7,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 0.75,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 0.8,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 0.85,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 0.9,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 0.95,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 1.0,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 1.05,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 1.1,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 1.15,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 1.2,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 1.25,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 1.3,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 1.35,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 1.4,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 1.45,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 1.5,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 1.55,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 1.6,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 1.65,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 1.7,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 1.75,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 1.8,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 1.85,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 1.9,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 1.95,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 2.0,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 2.05,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 2.1,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 2.15,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 2.2,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 2.25,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 2.3,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 2.35,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 2.4,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 2.45,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 2.5,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 2.55,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 2.6,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 2.65,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 2.7,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 2.75,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 2.8,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 2.85,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 2.9,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 2.95,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 3.0,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 3.05,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 3.1,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 3.15,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 3.2,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 3.25,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 3.3,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 3.35,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 3.4,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 3.45,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 3.5,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 3.55,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 3.6,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 3.65,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 3.7,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 3.75,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 3.8,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 3.85,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 3.9,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 3.95,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 4.0,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 4.05,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 4.1,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 4.15,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 4.2,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 4.25,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 4.3,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 4.35,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 4.4,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 4.45,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 4.5,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 4.55,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 4.6,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 4.65,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 4.7,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 4.75,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 4.8,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 4.85,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 4.9,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 4.95,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 5.0,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 5.05,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 5.1,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 5.15,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 5.2,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 5.25,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 5.3,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 5.35,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 5.4,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 5.45,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 5.5,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 5.55,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 5.6,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 5.65,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 5.7,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 5.75,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 5.8,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 5.85,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 5.9,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 5.95,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 6.0,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 6.05,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 6.1,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 6.15,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 6.2,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 6.25,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 6.3,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 6.35,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 6.4,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 6.45,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 6.5,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 6.55,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 6.6,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 6.65,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 6.7,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 6.75,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 6.8,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 6.85,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 6.9,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 6.95,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 7.0,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 7.05,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 7.1,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 7.15,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 7.2,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 7.25,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 7.3,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 7.35,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 7.4,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 7.45,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 7.5,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 7.55,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 7.6,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 7.65,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 7.7,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 7.75,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 7.8,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 7.85,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 7.9,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 7.95,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 8.0,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 8.05,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 8.1,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 8.15,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 8.2,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 8.25,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 8.3,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 8.35,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 8.4,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 8.45,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 8.5,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 8.55,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 8.6,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 8.65,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 8.7,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 8.75,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 8.8,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 8.85,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 8.9,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 8.95,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 9.0,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 9.05,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 9.1,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 9.15,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 9.2,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 9.25,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 9.3,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 9.35,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 9.4,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 9.45,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 9.5,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 9.55,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 9.6,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 9.65,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 9.7,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 9.75,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 9.8,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 9.85,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 9.9,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 9.95,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 10.0,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 10.05,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 10.1,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 10.15,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 10.2,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 10.25,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 10.3,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 10.35,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 10.4,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 10.45,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 10.5,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 10.55,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 10.6,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 10.65,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 10.7,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 10.75,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 10.8,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 10.85,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 10.9,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 10.95,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 11.0,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 11.05,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 11.1,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 11.15,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 11.2,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 11.25,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 11.3,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 11.35,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 11.4,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 11.45,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 11.5,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 11.55,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 11.6,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 11.65,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 11.7,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 11.75,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 11.8,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 11.85,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 11.9,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 11.95,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 12.0,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 12.05,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 12.1,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 12.15,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 12.2,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 12.25,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 12.3,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 12.35,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 12.4,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 12.45,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 12.5,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 12.55,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 12.6,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 12.65,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 12.7,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 12.75,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 12.8,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 12.85,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 12.9,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 12.95,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 13.0,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 13.05,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 13.1,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 13.15,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 13.2,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 13.25,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 13.3,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 13.35,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 13.4,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 13.45,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 13.5,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 13.55,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 13.6,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 13.65,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 13.7,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 13.75,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 13.8,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 13.85,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 13.9,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 13.95,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 14.0,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 14.05,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 14.1,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 14.15,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 14.2,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 14.25,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 14.3,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 14.35,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 14.4,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 14.45,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 14.5,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 14.55,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 14.6,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 14.65,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 14.7,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 14.75,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 14.8,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 14.85,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 14.9,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 14.95,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 15.0,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 15.05,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 15.1,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 15.15,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 15.2,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 15.25,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 15.3,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 15.35,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 15.4,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 15.45,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 15.5,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 15.55,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 15.6,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 15.65,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 15.7,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 15.75,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 15.8,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 15.85,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 15.9,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 15.95,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 16.0,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 16.05,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 16.1,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 16.15,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 16.2,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 16.25,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 16.3,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 16.35,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 16.4,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 16.45,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 16.5,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 16.55,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 16.6,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 16.65,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 16.7,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 16.75,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 16.8,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 16.85,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 16.9,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 16.95,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 17.0,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 17.05,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 17.1,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 17.15,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 17.2,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 17.25,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 17.3,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 17.35,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 17.4,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 17.45,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 17.5,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 17.55,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 17.6,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 17.65,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 17.7,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 17.75,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 17.8,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 17.85,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 17.9,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 17.95,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 18.0,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 18.05,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 18.1,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 18.15,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 18.2,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 18.25,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 18.3,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 18.35,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 18.4,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 18.45,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 18.5,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 18.55,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 18.6,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 18.65,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 18.7,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 18.75,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 18.8,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 18.85,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 18.9,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 18.95,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 19.0,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 19.05,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 19.1,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 19.15,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 19.2,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 19.25,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 19.3,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 19.35,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 19.4,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 19.45,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 19.5,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 19.55,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 19.6,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 19.65,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 19.7,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 19.75,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 19.8,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 19.85,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 19.9,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 19.95,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 20.0,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 20.05,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 20.1,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 20.15,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 20.2,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 20.25,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 20.3,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 20.35,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 20.4,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 20.45,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 20.5,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 20.55,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 20.6,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 20.65,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 20.7,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 20.75,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 20.8,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 20.85,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 20.9,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 20.95,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 21.0,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 21.05,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 21.1,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 21.15,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 21.2,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 21.25,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 21.3,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 21.35,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 21.4,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 21.45,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 21.5,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 21.55,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 21.6,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 21.65,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 21.7,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 21.75,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 21.8,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 21.85,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 21.9,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 21.95,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 22.0,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 22.05,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 22.1,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 22.15,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 22.2,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 22.25,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 22.3,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 22.35,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 22.4,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 22.45,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 22.5,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 22.55,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 22.6,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 22.65,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 22.7,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 22.75,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 22.8,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 22.85,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 22.9,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 22.95,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 23.0,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 23.05,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 23.1,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 23.15,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 23.2,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 23.25,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 23.3,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 23.35,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 23.4,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 23.45,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 23.5,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 23.55,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 23.6,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 23.65,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 23.7,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 23.75,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 23.8,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 23.85,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 23.9,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 23.95,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 24.0,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 24.05,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 24.1,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 24.15,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 24.2,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 24.25,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 24.3,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 24.35,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 24.4,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 24.45,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 24.5,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 24.55,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 24.6,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 24.65,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 24.7,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 24.75,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 24.8,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 24.85,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 24.9,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 24.95,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 25.0,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 25.05,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 25.1,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 25.15,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 25.2,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 25.25,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 25.3,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 25.35,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 25.4,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 25.45,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 25.5,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 25.55,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 25.6,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 25.65,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 25.7,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 25.75,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 25.8,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 25.85,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 25.9,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 25.95,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 26.0,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 26.05,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 26.1,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 26.15,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 26.2,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 26.25,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 26.3,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 26.35,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 26.4,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 26.45,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 26.5,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 26.55,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 26.6,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 26.65,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 26.7,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 26.75,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 26.8,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 26.85,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 26.9,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 26.95,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 27.0,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 27.05,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 27.1,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 27.15,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 27.2,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 27.25,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 27.3,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 27.35,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 27.4,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 27.45,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 27.5,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 27.55,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 27.6,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 27.65,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 27.7,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 27.75,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 27.8,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 27.85,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 27.9,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 27.95,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 28.0,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 28.05,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 28.1,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 28.15,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 28.2,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 28.25,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 28.3,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 28.35,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 28.4,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 28.45,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 28.5,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 28.55,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 28.6,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 28.65,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 28.7,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 28.75,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 28.8,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 28.85,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 28.9,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 28.95,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 29.0,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 29.05,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 29.1,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 29.15,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 29.2,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 29.25,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 29.3,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 29.35,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 29.4,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 29.45,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 29.5,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 29.55,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 29.6,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 29.65,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 29.7,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 29.75,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 29.8,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 29.85,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 29.9,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 29.95,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 30.0,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 30.05,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 30.1,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 30.15,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 30.2,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 30.25,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 30.3,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 30.35,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 30.4,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 30.45,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 30.5,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 30.55,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 30.6,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 30.65,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 30.7,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 30.75,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 30.8,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 30.85,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 30.9,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 30.95,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 31.0,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 31.05,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 31.1,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 31.15,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 31.2,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 31.25,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 31.3,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 31.35,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 31.4,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 31.45,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 31.5,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 31.55,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 31.6,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 31.65,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 31.7,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 31.75,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 31.8,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 31.85,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 31.9,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 31.95,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 32.0,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 32.05,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 32.1,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 32.15,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 32.2,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 32.25,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 32.3,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 32.35,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 32.4,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 32.45,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 32.5,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 32.55,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 32.6,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 32.65,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 32.7,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 32.75,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 32.8,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 32.85,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 32.9,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 32.95,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 33.0,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 33.05,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 33.1,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 33.15,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 33.2,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 33.25,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 33.3,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 33.35,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 33.4,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 33.45,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 33.5,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 33.55,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 33.6,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 33.65,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 33.7,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 33.75,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 33.8,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 33.85,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 33.9,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 33.95,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 34.0,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 34.05,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 34.1,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 34.15,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 34.2,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 34.25,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 34.3,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 34.35,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 34.4,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 34.45,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 34.5,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 34.55,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 34.6,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 34.65,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 34.7,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 34.75,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 34.8,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 34.85,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 34.9,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 34.95,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 35.0,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 35.05,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 35.1,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 35.15,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 35.2,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 35.25,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 35.3,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 35.35,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 35.4,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 35.45,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 35.5,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 35.55,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 35.6,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 35.65,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 35.7,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 35.75,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 35.8,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 35.85,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 35.9,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 35.95,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 36.0,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 36.05,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 36.1,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 36.15,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 36.2,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 36.25,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 36.3,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 36.35,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 36.4,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 36.45,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 36.5,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 36.55,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 36.6,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 36.65,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 36.7,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 36.75,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 36.8,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 36.85,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 36.9,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 36.95,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 37.0,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 37.05,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 37.1,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 37.15,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 37.2,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 37.25,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 37.3,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 37.35,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 37.4,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 37.45,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 37.5,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 37.55,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 37.6,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 37.65,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 37.7,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 37.75,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 37.8,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 37.85,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 37.9,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 37.95,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 38.0,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 38.05,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 38.1,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 38.15,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 38.2,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 38.25,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 38.3,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 38.35,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 38.4,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 38.45,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 38.5,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 38.55,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 38.6,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 38.65,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 38.7,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 38.75,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 38.8,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 38.85,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 38.9,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 38.95,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 39.0,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 39.05,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 39.1,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 39.15,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 39.2,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 39.25,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 39.3,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 39.35,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 39.4,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 39.45,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 39.5,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 39.55,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 39.6,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 39.65,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 39.7,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 39.75,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 39.8,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 39.85,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 39.9,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 39.95,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 40.0,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 40.05,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 40.1,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 40.15,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 40.2,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 40.25,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 40.3,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 40.35,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 40.4,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 40.45,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 40.5,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 40.55,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 40.6,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 40.65,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 40.7,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 40.75,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 40.8,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 40.85,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 40.9,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 40.95,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 41.0,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 41.05,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 41.1,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 41.15,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 41.2,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 41.25,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 41.3,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 41.35,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 41.4,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 41.45,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 41.5,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 41.55,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 41.6,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 41.65,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 41.7,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 41.75,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 41.8,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 41.85,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 41.9,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 41.95,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 42.0,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 42.05,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 42.1,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 42.15,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 42.2,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 42.25,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 42.3,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 42.35,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 42.4,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 42.45,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 42.5,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 42.55,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 42.6,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 42.65,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 42.7,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 42.75,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 42.8,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 42.85,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 42.9,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 42.95,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 43.0,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 43.05,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 43.1,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 43.15,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 43.2,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 43.25,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 43.3,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 43.35,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 43.4,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 43.45,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 43.5,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 43.55,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 43.6,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 43.65,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 43.7,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 43.75,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 43.8,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 43.85,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 43.9,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 43.95,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 44.0,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 44.05,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 44.1,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 44.15,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 44.2,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 44.25,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 44.3,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 44.35,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 44.4,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 44.45,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 44.5,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 44.55,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 44.6,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 44.65,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 44.7,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 44.75,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 44.8,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 44.85,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 44.9,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 44.95,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 45.0,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 45.05,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 45.1,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 45.15,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 45.2,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 45.25,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 45.3,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 45.35,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 45.4,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 45.45,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 45.5,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 45.55,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 45.6,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 45.65,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 45.7,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 45.75,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 45.8,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 45.85,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 45.9,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 45.95,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 46.0,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 46.05,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 46.1,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 46.15,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 46.2,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 46.25,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 46.3,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 46.35,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 46.4,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 46.45,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 46.5,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 46.55,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 46.6,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 46.65,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 46.7,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 46.75,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 46.8,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 46.85,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 46.9,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 46.95,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 47.0,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 47.05,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 47.1,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 47.15,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 47.2,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 47.25,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 47.3,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 47.35,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 47.4,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 47.45,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 47.5,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 47.55,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 47.6,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 47.65,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 47.7,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 47.75,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 47.8,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 47.85,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 47.9,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 47.95,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 48.0,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 48.05,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 48.1,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 48.15,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 48.2,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 48.25,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 48.3,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 48.35,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 48.4,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 48.45,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 48.5,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 48.55,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 48.6,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 48.65,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 48.7,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 48.75,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 48.8,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 48.85,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 48.9,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 48.95,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 49.0,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 49.05,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 49.1,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 49.15,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 49.2,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 49.25,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 49.3,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 49.35,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 49.4,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 49.45,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 49.5,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 49.55,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 49.6,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 49.65,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 49.7,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 49.75,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 49.8,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 49.85,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 49.9,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 49.95,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 50.0,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 50.05,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 50.1,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 50.15,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 50.2,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 50.25,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 50.3,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 50.35,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 50.4,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 50.45,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 50.5,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 50.55,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 50.6,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 50.65,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 50.7,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 50.75,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 50.8,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 50.85,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 50.9,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 50.95,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 51.0,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 51.05,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 51.1,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 51.15,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 51.2,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 51.25,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 51.3,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 51.35,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 51.4,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 51.45,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 51.5,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 51.55,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 51.6,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 51.65,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 51.7,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 51.75,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 51.8,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 51.85,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 51.9,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 51.95,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 52.0,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 52.05,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 52.1,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 52.15,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 52.2,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 52.25,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 52.3,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 52.35,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 52.4,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 52.45,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 52.5,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 52.55,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 52.6,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 52.65,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 52.7,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 52.75,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 52.8,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 52.85,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 52.9,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 52.95,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 53.0,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 53.05,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 53.1,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 53.15,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 53.2,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 53.25,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 53.3,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 53.35,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 53.4,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 53.45,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 53.5,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 53.55,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 53.6,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 53.65,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 53.7,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 53.75,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 53.8,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 53.85,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 53.9,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 53.95,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 54.0,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 54.05,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 54.1,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 54.15,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 54.2,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 54.25,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 54.3,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 54.35,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 54.4,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 54.45,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 54.5,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 54.55,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 54.6,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 54.65,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 54.7,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 54.75,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 54.8,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 54.85,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 54.9,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 54.95,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 55.0,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 55.05,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 55.1,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 55.15,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 55.2,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 55.25,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 55.3,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 55.35,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 55.4,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 55.45,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 55.5,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 55.55,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 55.6,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 55.65,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 55.7,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 55.75,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 55.8,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 55.85,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 55.9,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 55.95,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 56.0,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 56.05,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 56.1,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 56.15,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 56.2,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 56.25,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 56.3,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 56.35,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 56.4,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 56.45,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 56.5,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 56.55,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 56.6,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 56.65,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 56.7,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 56.75,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 56.8,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 56.85,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 56.9,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 56.95,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 57.0,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 57.05,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 57.1,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 57.15,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 57.2,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 57.25,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 57.3,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 57.35,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 57.4,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 57.45,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 57.5,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 57.55,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 57.6,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 57.65,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 57.7,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 57.75,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 57.8,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 57.85,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 57.9,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 57.95,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 58.0,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 58.05,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 58.1,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 58.15,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 58.2,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 58.25,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 58.3,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 58.35,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 58.4,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 58.45,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 58.5,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 58.55,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 58.6,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 58.65,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 58.7,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 58.75,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 58.8,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 58.85,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 58.9,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 58.95,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 59.0,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 59.05,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 59.1,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 59.15,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 59.2,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 59.25,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 59.3,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 59.35,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 59.4,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 59.45,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 59.5,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 59.55,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 59.6,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 59.65,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 59.7,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 59.75,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 59.8,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 59.85,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 59.9,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 59.95,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 60.0,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 60.05,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 60.1,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 60.15,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 60.2,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 60.25,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 60.3,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 60.35,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 60.4,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 60.45,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 60.5,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 60.55,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 60.6,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 60.65,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 60.7,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 60.75,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 60.8,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 60.85,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 60.9,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 60.95,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 61.0,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 61.05,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 61.1,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 61.15,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 61.2,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 61.25,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 61.3,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 61.35,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 61.4,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 61.45,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 61.5,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 61.55,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 61.6,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 61.65,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 61.7,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 61.75,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 61.8,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 61.85,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 61.9,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 61.95,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 62.0,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 62.05,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 62.1,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 62.15,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 62.2,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 62.25,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 62.3,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 62.35,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 62.4,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 62.45,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 62.5,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 62.55,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 62.6,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 62.65,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 62.7,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 62.75,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 62.8,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 62.85,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 62.9,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 62.95,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 63.0,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 63.05,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 63.1,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 63.15,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 63.2,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 63.25,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 63.3,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 63.35,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 63.4,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 63.45,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 63.5,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 63.55,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 63.6,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 63.65,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 63.7,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 63.75,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 63.8,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 63.85,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 63.9,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 63.95,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 64.0,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 64.05,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 64.1,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 64.15,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 64.2,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 64.25,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 64.3,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 64.35,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 64.4,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 64.45,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 64.5,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 64.55,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 64.6,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 64.65,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 64.7,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 64.75,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 64.8,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 64.85,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 64.9,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 64.95,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 65.0,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 65.05,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 65.1,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 65.15,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 65.2,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 65.25,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 65.3,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 65.35,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 65.4,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 65.45,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 65.5,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 65.55,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 65.6,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 65.65,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 65.7,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 65.75,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 65.8,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 65.85,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 65.9,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 65.95,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 66.0,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 66.05,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 66.1,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 66.15,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 66.2,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 66.25,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 66.3,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 66.35,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 66.4,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 66.45,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 66.5,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 66.55,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 66.6,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 66.65,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 66.7,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 66.75,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 66.8,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 66.85,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 66.9,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 66.95,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 67.0,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 67.05,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 67.1,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 67.15,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 67.2,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 67.25,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 67.3,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 67.35,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 67.4,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 67.45,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 67.5,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 67.55,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 67.6,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 67.65,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 67.7,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 67.75,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 67.8,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 67.85,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 67.9,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 67.95,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 68.0,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 68.05,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 68.1,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 68.15,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 68.2,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 68.25,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 68.3,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 68.35,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 68.4,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 68.45,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 68.5,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 68.55,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 68.6,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 68.65,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 68.7,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 68.75,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 68.8,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 68.85,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 68.9,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 68.95,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 69.0,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 69.05,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 69.1,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 69.15,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 69.2,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 69.25,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 69.3,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 69.35,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 69.4,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 69.45,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 69.5,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 69.55,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 69.6,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 69.65,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 69.7,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 69.75,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 69.8,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 69.85,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 69.9,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 69.95,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 70.0,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 70.05,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 70.1,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 70.15,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 70.2,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 70.25,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 70.3,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 70.35,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 70.4,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 70.45,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 70.5,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 70.55,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 70.6,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 70.65,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 70.7,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 70.75,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 70.8,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 70.85,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 70.9,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 70.95,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 71.0,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 71.05,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 71.1,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 71.15,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 71.2,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 71.25,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 71.3,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 71.35,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 71.4,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 71.45,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 71.5,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 71.55,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 71.6,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 71.65,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 71.7,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 71.75,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 71.8,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 71.85,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 71.9,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 71.95,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 72.0,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 72.05,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 72.1,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 72.15,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 72.2,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 72.25,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 72.3,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 72.35,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 72.4,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 72.45,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 72.5,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 72.55,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 72.6,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 72.65,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 72.7,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 72.75,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 72.8,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 72.85,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 72.9,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 72.95,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 73.0,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 73.05,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 73.1,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 73.15,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 73.2,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 73.25,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 73.3,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 73.35,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 73.4,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 73.45,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 73.5,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 73.55,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 73.6,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 73.65,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 73.7,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 73.75,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 73.8,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 73.85,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 73.9,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 73.95,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 74.0,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 74.05,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 74.1,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 74.15,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 74.2,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 74.25,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 74.3,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 74.35,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 74.4,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 74.45,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 74.5,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 74.55,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 74.6,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 74.65,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 74.7,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 74.75,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 74.8,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 74.85,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 74.9,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 74.95,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 75.0,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 75.05,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 75.1,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 75.15,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 75.2,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 75.25,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 75.3,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 75.35,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 75.4,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 75.45,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 75.5,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 75.55,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 75.6,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 75.65,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 75.7,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 75.75,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 75.8,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 75.85,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 75.9,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 75.95,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 76.0,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 76.05,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 76.1,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 76.15,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 76.2,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 76.25,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 76.3,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 76.35,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 76.4,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 76.45,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 76.5,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 76.55,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 76.6,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 76.65,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 76.7,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 76.75,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 76.8,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 76.85,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 76.9,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 76.95,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 77.0,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 77.05,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 77.1,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 77.15,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 77.2,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 77.25,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 77.3,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 77.35,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 77.4,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 77.45,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 77.5,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 77.55,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 77.6,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 77.65,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 77.7,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 77.75,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 77.8,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 77.85,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 77.9,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 77.95,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 78.0,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 78.05,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 78.1,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 78.15,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 78.2,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 78.25,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 78.3,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 78.35,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 78.4,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 78.45,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 78.5,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 78.55,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 78.6,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 78.65,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 78.7,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 78.75,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 78.8,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 78.85,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 78.9,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 78.95,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 79.0,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 79.05,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 79.1,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 79.15,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 79.2,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 79.25,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 79.3,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 79.35,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 79.4,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 79.45,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 79.5,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 79.55,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 79.6,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 79.65,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 79.7,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 79.75,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 79.8,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 79.85,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 79.9,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 79.95,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 80.0,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 80.05,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 80.1,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 80.15,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 80.2,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 80.25,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 80.3,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 80.35,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 80.4,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 80.45,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 80.5,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 80.55,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 80.6,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 80.65,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 80.7,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 80.75,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 80.8,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 80.85,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 80.9,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 80.95,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 81.0,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 81.05,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 81.1,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 81.15,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 81.2,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 81.25,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 81.3,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 81.35,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 81.4,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 81.45,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  },
+  {
+    "time": 81.5,
+    "speed": 0.0,
+    "acceleration": 0.0,
+    "min_ttc": null
+  }
+]
