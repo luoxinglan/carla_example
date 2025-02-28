@@ -1,0 +1,768 @@
+Version: 1
+Map: Town10HD
+Date: 02/27/25 11:08:57
+
+Frame 1 at 0 seconds
+ Create 18: spectator (0) at (-17219.7, 18385.9, 2763.81)
+ Create 19: traffic.stop (4) at (5745, 6115, 15)
+ Create 20: traffic.stop (4) at (2610, 7515, 15)
+ Create 21: traffic.stop (4) at (3535, 5360, 15)
+ Create 22: traffic.yield (4) at (4960, 3850, 15)
+ Create 23: traffic.unknown (4) at (4315, 6645, 0)
+ Create 24: traffic.unknown (4) at (4404.62, 3779.89, 0)
+ Create 25: traffic.unknown (4) at (-2815, 6602.97, 0)
+ Create 26: traffic.traffic_light (3) at (-11923, 509.315, 26.277)
+ Create 27: traffic.traffic_light (3) at (11545, 3504.49, 22.2726)
+ Create 28: traffic.traffic_light (3) at (-4617.16, -7355.66, 25.4254)
+ Create 29: traffic.traffic_light (3) at (-3444.92, -5102.05, 25.4255)
+ Create 30: traffic.traffic_light (3) at (11445.2, 2119.6, 25.42)
+ Create 31: traffic.traffic_light (3) at (8979.19, 2092.21, 25.42)
+ Create 32: traffic.traffic_light (3) at (-3193.08, 2030.2, 25.4254)
+ Create 33: traffic.traffic_light (3) at (-6426.42, 706.331, 25.4254)
+ Create 34: traffic.traffic_light (3) at (-6235.21, 2019.69, 25.4254)
+ Create 35: traffic.traffic_light (3) at (-9492.82, 2033.48, 25.4256)
+ Create 36: traffic.traffic_light (3) at (-5924.23, -5149.84, 25.4254)
+ Create 37: traffic.traffic_light (3) at (-11923.8, 1900.45, 25.4253)
+ Create 38: traffic.traffic_light (3) at (-5871.54, 14582.5, 25.4188)
+ Create 39: traffic.traffic_light (3) at (-6209.93, 12375.6, 28.3086)
+ Create 40: traffic.traffic_light (3) at (-3163.64, 3358.93, 25.4254)
+Frame 6 at 0.0628427 seconds
+ Create 41: vehicle.audi.etron (1) at (-1710.54, 1325.75, 60)
+  generation = 1
+  number_of_wheels = 4
+  sticky_control = true
+  object_type = 
+  color = 168,0,27
+  role_name = autopilot
+ Create 42: vehicle.kawasaki.ninja (1) at (-4166.86, 8974.55, 60)
+  generation = 1
+  number_of_wheels = 2
+  sticky_control = true
+  driver_id = 0
+  object_type = 
+  color = 11,129,0
+  role_name = autopilot
+ Create 43: vehicle.gazelle.omafiets (1) at (4576.57, 13746, 60.0001)
+  generation = 1
+  number_of_wheels = 2
+  sticky_control = true
+  driver_id = 0
+  object_type = 
+  color = 41,73,217
+  role_name = autopilot
+ Create 44: vehicle.mini.cooper_s (1) at (10950.3, 7124.38, 60)
+  generation = 1
+  number_of_wheels = 4
+  sticky_control = true
+  object_type = 
+  color = 168,0,27
+  role_name = autopilot
+ Create 45: vehicle.toyota.prius (1) at (3001.82, 13394.7, 60)
+  generation = 1
+  number_of_wheels = 4
+  sticky_control = true
+  object_type = 
+  color = 227,227,227
+  role_name = autopilot
+ Create 46: vehicle.nissan.patrol_2021 (1) at (-7534.39, 1647.47, 60)
+  generation = 2
+  number_of_wheels = 4
+  sticky_control = true
+  object_type = 
+  color = 159,0,0
+  role_name = autopilot
+ Create 47: vehicle.carlamotors.firetruck (1) at (10651.3, -2155.46, 90)
+  generation = 2
+  number_of_wheels = 4
+  sticky_control = true
+  object_type = 
+  color = 234,0,0
+  role_name = autopilot
+ Create 48: vehicle.carlamotors.firetruck (1) at (10637.7, -164.944, 60)
+  generation = 2
+  number_of_wheels = 4
+  sticky_control = true
+  object_type = 
+  color = 234,0,0
+  role_name = autopilot
+ Create 49: vehicle.ford.crown (1) at (6523.53, 1341.48, 60)
+  generation = 2
+  number_of_wheels = 4
+  sticky_control = true
+  object_type = 
+  color = 255,185,0
+  role_name = autopilot
+ Create 50: vehicle.bh.crossbike (1) at (-5207.39, 6353.81, 60)
+  generation = 1
+  number_of_wheels = 2
+  sticky_control = true
+  driver_id = 2
+  object_type = 
+  color = 20,78,217
+  role_name = autopilot
+ Create 51: vehicle.dodge.charger_police_2020 (1) at (-4523.59, -3650.01, 60)
+  generation = 2
+  number_of_wheels = 4
+  sticky_control = true
+  object_type = 
+  color = 0,0,0
+  role_name = autopilot
+ Create 52: vehicle.tesla.cybertruck (1) at (3299.26, -6790, 60)
+  object_type = 
+  number_of_wheels = 4
+  sticky_control = true
+  generation = 2
+  role_name = autopilot
+ Create 53: vehicle.audi.etron (1) at (10298, -2270.58, 60)
+  generation = 1
+  number_of_wheels = 4
+  sticky_control = true
+  object_type = 
+  color = 195,168,228
+  role_name = autopilot
+ Create 54: vehicle.dodge.charger_police (1) at (10231.8, 8041.47, 60)
+  generation = 1
+  number_of_wheels = 4
+  sticky_control = true
+  object_type = 
+  color = 8,53,0
+  role_name = autopilot
+ Create 55: vehicle.mercedes.sprinter (1) at (10602.9, 6742, 60)
+  generation = 2
+  number_of_wheels = 4
+  sticky_control = true
+  object_type = 
+  color = 167,166,175
+  role_name = autopilot
+ Create 56: vehicle.nissan.patrol (1) at (10995.7, -2733.37, 60)
+  generation = 1
+  number_of_wheels = 4
+  sticky_control = true
+  object_type = 
+  color = 22,24,43
+  role_name = autopilot
+ Create 57: vehicle.tesla.model3 (1) at (-101.316, 6971.4, 60)
+  generation = 1
+  number_of_wheels = 4
+  sticky_control = true
+  object_type = 
+  color = 137,0,0
+  role_name = autopilot
+ Create 58: vehicle.mercedes.coupe (1) at (4854.61, 14097.6, 60.0001)
+  generation = 1
+  number_of_wheels = 4
+  sticky_control = true
+  object_type = 
+  color = 217,217,217
+  role_name = autopilot
+ Create 59: vehicle.tesla.model3 (1) at (-6725.46, 2796.38, 60)
+  generation = 1
+  number_of_wheels = 4
+  sticky_control = true
+  object_type = 
+  color = 75,86,173
+  role_name = autopilot
+ Create 60: vehicle.toyota.prius (1) at (10952.3, 8983.67, 60)
+  generation = 1
+  number_of_wheels = 4
+  sticky_control = true
+  object_type = 
+  color = 23,51,236
+  role_name = autopilot
+ Create 61: vehicle.yamaha.yzf (1) at (-7126.97, 13231.5, 60)
+  generation = 1
+  number_of_wheels = 2
+  sticky_control = true
+  driver_id = 0
+  object_type = 
+  color = 0,12,49
+  role_name = autopilot
+ Create 62: vehicle.yamaha.yzf (1) at (-2780.03, -6128.4, 60)
+  generation = 1
+  number_of_wheels = 2
+  sticky_control = true
+  driver_id = 0
+  object_type = 
+  color = 255,213,0
+  role_name = autopilot
+ Create 63: vehicle.tesla.model3 (1) at (3233.77, 13046, 60)
+  generation = 1
+  number_of_wheels = 4
+  sticky_control = true
+  object_type = 
+  color = 17,37,103
+  role_name = autopilot
+ Create 64: vehicle.seat.leon (1) at (-6410.39, 1650.59, 60)
+  generation = 1
+  number_of_wheels = 4
+  sticky_control = true
+  object_type = 
+  color = 21,38,98
+  role_name = autopilot
+ Create 65: vehicle.tesla.model3 (1) at (-987.588, -5755.17, 60)
+  generation = 1
+  number_of_wheels = 4
+  sticky_control = true
+  object_type = 
+  color = 75,86,173
+  role_name = autopilot
+ Create 66: vehicle.tesla.cybertruck (1) at (2288.12, -6090, 60)
+  object_type = 
+  number_of_wheels = 4
+  sticky_control = true
+  generation = 2
+  role_name = autopilot
+ Create 67: vehicle.mercedes.sprinter (1) at (8026.55, 1690.7, 60)
+  generation = 2
+  number_of_wheels = 4
+  sticky_control = true
+  object_type = 
+  color = 115,115,115
+  role_name = autopilot
+ Create 68: vehicle.seat.leon (1) at (-1838.59, 13021, 60)
+  generation = 1
+  number_of_wheels = 4
+  sticky_control = true
+  object_type = 
+  color = 79,33,85
+  role_name = autopilot
+ Create 69: vehicle.mercedes.sprinter (1) at (-5434.47, 13705.1, 60)
+  generation = 2
+  number_of_wheels = 4
+  sticky_control = true
+  object_type = 
+  color = 167,166,175
+  role_name = autopilot
+ Create 70: vehicle.bh.crossbike (1) at (-4149.15, 11194.5, 60)
+  generation = 1
+  number_of_wheels = 2
+  sticky_control = true
+  driver_id = 2
+  object_type = 
+  color = 0,112,39
+  role_name = autopilot
+ Create 71: vehicle.toyota.prius (1) at (10950.3, 5329.32, 60)
+  generation = 1
+  number_of_wheels = 4
+  sticky_control = true
+  object_type = 
+  color = 28,46,58
+  role_name = autopilot
+ Create 72: vehicle.carlamotors.firetruck (1) at (-2716.03, 13704.4, 60)
+  generation = 2
+  number_of_wheels = 4
+  sticky_control = true
+  object_type = 
+  color = 234,0,0
+  role_name = autopilot
+ Create 73: vehicle.vespa.zx125 (1) at (-4856.74, 10247.9, 60)
+  generation = 1
+  number_of_wheels = 2
+  sticky_control = true
+  driver_id = 0
+  object_type = 
+  color = 255,203,39
+  role_name = autopilot
+ Create 74: vehicle.dodge.charger_2020 (1) at (-1514.82, 6971.4, 60)
+  generation = 2
+  number_of_wheels = 4
+  sticky_control = true
+  object_type = 
+  color = 211,142,0
+  role_name = autopilot
+ Create 75: vehicle.mercedes.sprinter (1) at (9907.86, 4214.18, 60)
+  generation = 2
+  number_of_wheels = 4
+  sticky_control = true
+  object_type = 
+  color = 167,166,175
+  role_name = autopilot
+ Create 76: vehicle.dodge.charger_police_2020 (1) at (-397.387, 2810.42, 60)
+  generation = 2
+  number_of_wheels = 4
+  sticky_control = true
+  object_type = 
+  color = 0,0,0
+  role_name = autopilot
+ Create 77: vehicle.ford.crown (1) at (600.651, 6628.33, 60)
+  generation = 2
+  number_of_wheels = 4
+  sticky_control = true
+  object_type = 
+  color = 255,185,0
+  role_name = autopilot
+ Create 78: vehicle.yamaha.yzf (1) at (741.112, -6090, 60)
+  generation = 1
+  number_of_wheels = 2
+  sticky_control = true
+  driver_id = 0
+  object_type = 
+  color = 141,0,58
+  role_name = autopilot
+ Create 79: vehicle.ford.crown (1) at (4337.31, 1690.92, 60)
+  generation = 2
+  number_of_wheels = 4
+  sticky_control = true
+  object_type = 
+  color = 255,185,0
+  role_name = autopilot
+ Create 80: vehicle.harley-davidson.low_rider (1) at (-7927.58, 2796.38, 60)
+  generation = 1
+  number_of_wheels = 2
+  sticky_control = true
+  driver_id = 0
+  object_type = 
+  color = 0,38,132
+  role_name = autopilot
+ Create 81: vehicle.mini.cooper_s (1) at (-8988.58, 2793.43, 60)
+  generation = 1
+  number_of_wheels = 4
+  sticky_control = true
+  object_type = 
+  color = 0,39,105
+  role_name = autopilot
+ Create 82: vehicle.mercedes.coupe_2020 (1) at (1709.12, 2810.42, 60)
+  generation = 2
+  number_of_wheels = 4
+  sticky_control = true
+  object_type = 
+  color = 187,187,187
+  role_name = autopilot
+ Create 83: vehicle.volkswagen.t2_2021 (1) at (2989.4, -6439.88, 60)
+  generation = 2
+  number_of_wheels = 4
+  sticky_control = true
+  object_type = 
+  color = 73,12,12
+  role_name = autopilot
+ Create 84: vehicle.tesla.cybertruck (1) at (6765.97, 6982.28, 60)
+  object_type = 
+  number_of_wheels = 4
+  sticky_control = true
+  generation = 2
+  role_name = autopilot
+ Create 85: vehicle.dodge.charger_2020 (1) at (-796.696, 6628.33, 60)
+  generation = 2
+  number_of_wheels = 4
+  sticky_control = true
+  object_type = 
+  color = 211,142,0
+  role_name = autopilot
+ Create 86: vehicle.chevrolet.impala (1) at (-1333.94, -6105.01, 60)
+  generation = 1
+  number_of_wheels = 4
+  sticky_control = true
+  object_type = 
+  color = 71,12,12
+  role_name = autopilot
+ Create 87: vehicle.dodge.charger_2020 (1) at (1413.01, 6971.4, 60)
+  generation = 2
+  number_of_wheels = 4
+  sticky_control = true
+  object_type = 
+  color = 211,142,0
+  role_name = autopilot
+ Create 88: vehicle.volkswagen.t2 (1) at (4755.71, -5722.52, 60)
+  generation = 1
+  number_of_wheels = 4
+  sticky_control = true
+  object_type = 
+  color = 0,33,5
+  role_name = autopilot
+ Create 89: vehicle.gazelle.omafiets (1) at (1514.31, 1668.13, 70)
+  generation = 1
+  number_of_wheels = 2
+  sticky_control = true
+  driver_id = 0
+  object_type = 
+  color = 0,0,0
+  role_name = autopilot
+ Create 90: vehicle.dodge.charger_2020 (1) at (-4534, -2556.5, 60.0071)
+  generation = 2
+  number_of_wheels = 4
+  sticky_control = true
+  object_type = 
+  color = 0,0,0
+  role_name = autopilot
+ Create 91: vehicle.chevrolet.impala (1) at (4038.96, 4194.55, 60)
+  generation = 1
+  number_of_wheels = 4
+  sticky_control = true
+  object_type = 
+  color = 71,12,12
+  role_name = autopilot
+ Create 92: vehicle.bh.crossbike (1) at (-4867.44, 4695.53, 60)
+  generation = 1
+  number_of_wheels = 2
+  sticky_control = true
+  driver_id = 2
+  object_type = 
+  color = 255,202,0
+  role_name = autopilot
+ Create 93: vehicle.lincoln.mkz_2020 (1) at (10293, -938.152, 60)
+  generation = 2
+  number_of_wheels = 4
+  sticky_control = true
+  driver_id = 0
+  object_type = 
+  color = 0,0,0
+  role_name = autopilot
+ Create 94: vehicle.bh.crossbike (1) at (-11364.8, -1428.12, 60)
+  generation = 1
+  number_of_wheels = 2
+  sticky_control = true
+  driver_id = 2
+  object_type = 
+  color = 180,0,0
+  role_name = autopilot
+ Create 95: vehicle.volkswagen.t2_2021 (1) at (-917.596, 14071, 60)
+  generation = 2
+  number_of_wheels = 4
+  sticky_control = true
+  object_type = 
+  color = 22,31,73
+  role_name = autopilot
+ Create 96: vehicle.dodge.charger_police (1) at (-11076.4, 4666.01, 60)
+  generation = 1
+  number_of_wheels = 4
+  sticky_control = true
+  object_type = 
+  color = 0,0,0
+  role_name = autopilot
+ Create 97: vehicle.mini.cooper_s_2021 (1) at (2163.06, 14097.3, 60)
+  generation = 2
+  number_of_wheels = 4
+  sticky_control = true
+  object_type = 
+  color = 73,0,0
+  role_name = autopilot
+ Create 98: vehicle.audi.tt (1) at (10641.6, -1271.19, 59.9999)
+  generation = 1
+  number_of_wheels = 4
+  sticky_control = true
+  object_type = 
+  color = 0,39,105
+  role_name = autopilot
+ Create 99: vehicle.kawasaki.ninja (1) at (-11112, 7289.89, 60)
+  generation = 1
+  number_of_wheels = 2
+  sticky_control = true
+  driver_id = 0
+  object_type = 
+  color = 0,0,0
+  role_name = autopilot
+ Create 100: vehicle.mercedes.coupe (1) at (10991.3, -692.545, 60)
+  generation = 1
+  number_of_wheels = 4
+  sticky_control = true
+  object_type = 
+  color = 33,33,33
+  role_name = autopilot
+ Create 101: vehicle.ford.mustang (1) at (-5213.36, -4018.03, 60)
+  generation = 1
+  number_of_wheels = 4
+  sticky_control = true
+  object_type = 
+  color = 0,12,58
+  role_name = autopilot
+ Create 102: vehicle.bh.crossbike (1) at (10994.7, -1718.8, 59.9999)
+  generation = 1
+  number_of_wheels = 2
+  sticky_control = true
+  driver_id = 2
+  object_type = 
+  color = 255,202,0
+  role_name = autopilot
+ Create 103: vehicle.tesla.model3 (1) at (4538.29, 1341.48, 60)
+  generation = 1
+  number_of_wheels = 4
+  sticky_control = true
+  object_type = 
+  color = 17,37,103
+  role_name = autopilot
+ Create 104: vehicle.tesla.model3 (1) at (1117.63, -6439.88, 60)
+  generation = 1
+  number_of_wheels = 4
+  sticky_control = true
+  object_type = 
+  color = 180,42,42
+  role_name = autopilot
+ Create 105: vehicle.kawasaki.ninja (1) at (-4531.13, -169.439, 60)
+  generation = 1
+  number_of_wheels = 2
+  sticky_control = true
+  driver_id = 0
+  object_type = 
+  color = 255,203,39
+  role_name = autopilot
+ Create 106: vehicle.ford.crown (1) at (-4858.21, 6062.82, 60)
+  generation = 2
+  number_of_wheels = 4
+  sticky_control = true
+  object_type = 
+  color = 255,185,0
+  role_name = autopilot
+ Create 107: vehicle.ford.crown (1) at (9938.44, -630.573, 60)
+  generation = 2
+  number_of_wheels = 4
+  sticky_control = true
+  object_type = 
+  color = 255,185,0
+  role_name = autopilot
+ Create 108: vehicle.dodge.charger_2020 (1) at (-1544.83, -6800.71, 60.0005)
+  generation = 2
+  number_of_wheels = 4
+  sticky_control = true
+  object_type = 
+  color = 0,39,105
+  role_name = autopilot
+ Create 109: vehicle.audi.a2 (1) at (-10317.9, -1443.49, 60)
+  generation = 1
+  number_of_wheels = 4
+  sticky_control = true
+  object_type = 
+  color = 0,39,105
+  role_name = autopilot
+ Create 110: vehicle.nissan.patrol (1) at (-5218.67, 4256.51, 60)
+  generation = 1
+  number_of_wheels = 4
+  sticky_control = true
+  object_type = 
+  color = 183,187,162
+  role_name = autopilot
+ Create 111: vehicle.bh.crossbike (1) at (-7803.42, 1296.72, 60)
+  generation = 1
+  number_of_wheels = 2
+  sticky_control = true
+  driver_id = 2
+  object_type = 
+  color = 20,78,217
+  role_name = autopilot
+ Create 112: vehicle.audi.a2 (1) at (-10993, -2342.84, 59.9995)
+  generation = 1
+  number_of_wheels = 4
+  sticky_control = true
+  object_type = 
+  color = 168,0,27
+  role_name = autopilot
+ Create 113: vehicle.micro.microlino (1) at (-2858.17, 14053.6, 60)
+  generation = 1
+  number_of_wheels = 4
+  sticky_control = true
+  object_type = 
+  color = 21,158,255
+  role_name = autopilot
+ Create 114: vehicle.audi.a2 (1) at (-11340.4, -2576.75, 59.9995)
+  generation = 1
+  number_of_wheels = 4
+  sticky_control = true
+  object_type = 
+  color = 168,0,27
+  role_name = autopilot
+ Create 115: vehicle.mercedes.sprinter (1) at (-1878.27, -6470.81, 90.0005)
+  generation = 2
+  number_of_wheels = 4
+  sticky_control = true
+  object_type = 
+  color = 167,166,175
+  role_name = autopilot
+ Create 116: vehicle.jeep.wrangler_rubicon (1) at (6202.55, 1690.59, 60)
+  generation = 1
+  number_of_wheels = 4
+  sticky_control = true
+  object_type = 
+  color = 217,217,217
+  role_name = autopilot
+ Create 117: vehicle.mercedes.coupe (1) at (-2551.63, 2461.31, 60)
+  generation = 1
+  number_of_wheels = 4
+  sticky_control = true
+  object_type = 
+  color = 168,0,27
+  role_name = autopilot
+ Create 118: vehicle.toyota.prius (1) at (-11443.2, 5685.03, 60)
+  generation = 1
+  number_of_wheels = 4
+  sticky_control = true
+  object_type = 
+  color = 215,255,143
+  role_name = autopilot
+ Create 119: vehicle.dodge.charger_2020 (1) at (7363.29, 6635.85, 60)
+  generation = 2
+  number_of_wheels = 4
+  sticky_control = true
+  object_type = 
+  color = 211,142,0
+  role_name = autopilot
+ Create 120: vehicle.volkswagen.t2_2021 (1) at (2638.26, -5740.14, 60)
+  generation = 2
+  number_of_wheels = 4
+  sticky_control = true
+  object_type = 
+  color = 22,31,73
+  role_name = autopilot
+Frame 1391 at 19.2472 seconds
+ Create 121: vehicle.tesla.model3 (1) at (-2780.03, -6128.4, 60)
+  generation = 1
+  number_of_wheels = 4
+  sticky_control = true
+  object_type = 
+  color = 0,0,0
+  role_name = hero
+Frame 1394 at 19.2911 seconds
+ Create 122: sensor.other.collision (5) at (0, 0, 0)
+  role_name = front
+ Parenting 122 with 121 (parent)
+Frame 1396 at 19.3155 seconds
+ Create 123: sensor.other.lane_invasion (5) at (0, 0, 0)
+  role_name = front
+ Parenting 123 with 121 (parent)
+Frame 1398 at 19.3414 seconds
+ Create 124: sensor.other.gnss (5) at (100, 0, 280)
+  noise_alt_bias = 0.0
+  noise_alt_stddev = 0.0
+  noise_lon_bias = 0.0
+  noise_lon_stddev = 0.0
+  noise_lat_bias = 0.0
+  noise_seed = 0
+  noise_lat_stddev = 0.0
+  sensor_tick = 0.0
+  role_name = default
+ Parenting 124 with 121 (parent)
+Frame 1400 at 19.3652 seconds
+ Create 125: sensor.camera.rgb (5) at (-550, 0, 250)
+  chromatic_aberration_intensity = 0.0
+  tint = 0.0
+  shoulder = 0.26
+  toe = 0.55
+  white_clip = 0.04
+  slope = 0.88
+  blur_radius = 0.0
+  blur_amount = 1.0
+  blade_count = 5
+  exposure_speed_down = 1.0
+  min_fstop = 1.2
+  exposure_speed_up = 3.0
+  exposure_max_bright = 12.0
+  motion_blur_min_object_screen_size = 0.1
+  bloom_intensity = 0.675
+  lens_flare_intensity = 0.1
+  black_clip = 0.0
+  motion_blur_max_distortion = 0.35
+  focal_distance = 1000.0
+  motion_blur_intensity = 0.45
+  temp = 6500.0
+  gamma = 2.2
+  enable_postprocess_effects = true
+  iso = 100.0
+  shutter_speed = 200.0
+  exposure_compensation = 0.0
+  exposure_mode = histogram
+  calibration_constant = 16.0
+  lens_y_size = 0.08
+  lens_x_size = 0.08
+  lens_kcube = 0.0
+  lens_k = -1.0
+  lens_circle_multiplier = 0.0
+  fstop = 1.4
+  fov = 90.0
+  image_size_y = 720
+  chromatic_aberration_offset = 0.0
+  lens_circle_falloff = 5.0
+  image_size_x = 1280
+  sensor_tick = 0.0
+  exposure_min_bright = 10.0
+  role_name = front
+ Parenting 125 with 121 (parent)
+Frame 5704 at 136.194 seconds
+ Collision id 0 between 121 (hero)  with 104
+Frame 5705 at 136.222 seconds
+ Collision id 3 between 121 (hero)  with 104
+Frame 5706 at 136.245 seconds
+ Collision id 6 between 121 (hero)  with 104
+Frame 5707 at 136.27 seconds
+ Collision id 9 between 121 (hero)  with 104
+Frame 6344 at 151.713 seconds
+ Destroy 41
+ Destroy 42
+ Destroy 43
+ Destroy 44
+ Destroy 45
+ Destroy 46
+ Destroy 47
+ Destroy 48
+ Destroy 49
+ Destroy 50
+ Destroy 51
+ Destroy 52
+ Destroy 53
+ Destroy 54
+ Destroy 55
+ Destroy 56
+ Destroy 57
+ Destroy 58
+ Destroy 59
+ Destroy 60
+ Destroy 61
+ Destroy 62
+ Destroy 63
+ Destroy 64
+ Destroy 65
+ Destroy 66
+ Destroy 67
+ Destroy 68
+ Destroy 69
+ Destroy 70
+ Destroy 71
+ Destroy 72
+ Destroy 73
+ Destroy 74
+ Destroy 75
+ Destroy 76
+ Destroy 77
+ Destroy 78
+ Destroy 79
+ Destroy 80
+ Destroy 81
+ Destroy 82
+ Destroy 83
+ Destroy 84
+ Destroy 85
+ Destroy 86
+ Destroy 87
+ Destroy 88
+ Destroy 89
+ Destroy 90
+ Destroy 91
+ Destroy 92
+ Destroy 93
+ Destroy 94
+ Destroy 95
+ Destroy 96
+ Destroy 97
+ Destroy 98
+ Destroy 99
+ Destroy 100
+ Destroy 101
+ Destroy 102
+ Destroy 103
+ Destroy 104
+ Destroy 105
+ Destroy 106
+ Destroy 107
+ Destroy 108
+ Destroy 109
+ Destroy 110
+ Destroy 111
+ Destroy 112
+ Destroy 113
+ Destroy 114
+ Destroy 115
+ Destroy 116
+ Destroy 117
+ Destroy 118
+ Destroy 119
+ Destroy 120
+
+Frames: 6344
+Duration: 151.713 seconds

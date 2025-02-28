@@ -81,7 +81,7 @@ def parse_frame_block(block):
     return frame_data
 
 
-def parse_vehicle_control_section(block, target_id='91'):
+def parse_vehicle_control_section(block, target_id='141'):
     control_section = False
     vehicle_controls = {}
 
@@ -175,17 +175,17 @@ def process_frames(frames_data, target_id):
                 min_ttc = ttc
 
 
-        # 处理结果
+        # 处理结果TODO id
         result = {
             'time': round(current_time, 2),
             'speed': round(speed, 3),
             'acceleration': round(acceleration, 3) if acceleration is not None else None,
             'min_ttc': round(min_ttc, 3) if min_ttc != float('inf') else None,
-            'steering': round(frame['controls']['91']['steering'], 3),
-            'throttle': round(frame['controls']['91']['throttle'], 3),
-            'brake': round(frame['controls']['91']['brake'], 3),
-            'handbrake': round(frame['controls']['91']['handbrake'], 3),
-            'gear': frame['controls']['91']['gear']
+            'steering': round(frame['controls']['141']['steering'], 3),
+            'throttle': round(frame['controls']['141']['throttle'], 3),
+            'brake': round(frame['controls']['141']['brake'], 3),
+            'handbrake': round(frame['controls']['141']['handbrake'], 3),
+            'gear': frame['controls']['141']['gear']
         }
         results.append(result)
         # print(f"处理帧数据 - 时间 {current_time}: 速度={speed}, 加速度={acceleration}, 最小TTC={min_ttc}")
@@ -215,5 +215,5 @@ def main(input_file, output_file, target_id):
 
 if __name__ == '__main__':
     # 使用示例（需要替换实际文件路径和目标ID）
-    main('/home/heihuhu/Projects/CARLA_0.9.13_safebench/PythonAPI/mycarla/logs/record_velocity.txt',
-         '../logs/vehicle_stats.json', '91')
+    main('/home/heihuhu/Projects/CARLA_0.9.13_safebench/PythonAPI/mycarla/logs/recrod0227.txt',
+         '../logs/vehicle_stats0227.json', '141')

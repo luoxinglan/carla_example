@@ -112,10 +112,6 @@ class SensorManager:
 
             return camera
 
-        elif sensor_type == 'vehicle_data':  # TODO:UPDATE0219:修改sensormanager，使其能够处理车辆数据。
-            # self.collect_vehicle_data_periodically()
-            return None  # 不需要在这里返回任何东西，因为我们将通过定时器收集数据
-
         else:
             return None
 
@@ -153,7 +149,7 @@ class SensorManager:
         # 将 LiDAR 图像放入对应队列UPDATE0219
         timestamp = time.time() - self.start_time  # 使用相对于启动时间的时间戳
         self.image_queue.put(('lidar', timestamp, img_str))
-        print(f"LiDAR图像已放入队列，时间戳: {timestamp}")
+        # print(f"LiDAR图像已放入队列，时间戳: {timestamp}")
 
         t_end = self.timer.time()
         self.time_processing += (t_end - t_start)
@@ -176,7 +172,7 @@ class SensorManager:
         # 图像放入对应队列UPDATE0219
         timestamp = time.time() - self.start_time  # 使用相对于启动时间的时间戳
         self.image_queue.put(('semantic', timestamp, img_str))
-        print(f"语义分割图像已放入队列，时间戳: {timestamp}")
+        # print(f"语义分割图像已放入队列，时间戳: {timestamp}")
 
         t_end = self.timer.time()
         self.time_processing += (t_end - t_start)
@@ -200,104 +196,11 @@ class SensorManager:
         # 将RGB图像放入对应队列UPDATE0219
         timestamp = time.time() - self.start_time  # 使用相对于启动时间的时间戳
         self.image_queue.put(('rgb', self.index, timestamp, img_str))
-        print(f"RGB图像{self.index}已放入队列，时间戳: {timestamp}")
+        # print(f"RGB图像{self.index}已放入队列，时间戳: {timestamp}")
 
         t_end = self.timer.time()
         self.time_processing += (t_end - t_start)
         self.tics_processing += 1
-
-    # TODO:UPDATE0219:修改sensormanager，使其能够处理车辆数据。
-    def collect_vehicle_data(self):
-        try:
-            current_time = time.time()
-            relative_timestamp = current_time - self.start_time
-
-            # 获取数据时使用world.get_snapshot()的时间戳
-            snapshot = self.world.get_snapshot()
-            if snapshot:
-                relative_timestamp = snapshot.timestamp.platform_timestamp
-            """收集 hero 车辆的数据"""
-            print("显示车辆的信息: self.vehicle in collect_vehicle_data", self.vehicle)
-            # print("self.vehicle",self.client.show_recorder_file_info("recording.log"))
-            hero_location = self.vehicle.get_location()
-            hero_velocity = self.vehicle.get_velocity()
-            acceleration = self.vehicle.get_acceleration()
-
-            print(f"hero_location------------------------------------------------------------{hero_location}")
-            print(f"hero_velocity------------------------------------------------------------{hero_velocity}")
-            print(f"acceleration------------------------------------------------------------{acceleration}")
-
-            v_speed = np.array([hero_velocity.x, hero_velocity.y, hero_velocity.z])
-            velocity_modulus = np.linalg.norm(v_speed)
-
-            v_acc = np.array([acceleration.x, acceleration.y, acceleration.z])
-            acceleration_modulus = np.linalg.norm(v_acc)
-
-            # 获取所有其他车辆的位置、速度等数据
-            all_vehicles = self.world.get_actors().filter('vehicle.*')
-            min_ttc = float('inf')
-            closest_vehicle = None
-
-            for vehicle in all_vehicles:
-                if vehicle.id != self.vehicle.id and vehicle.is_alive:
-                    other_location = vehicle.get_location()
-                    other_velocity = vehicle.get_velocity()
-
-                    ttc = calculate_ttc(
-                        hero_location,
-                        hero_velocity,
-                        other_location,
-                        other_velocity
-                    )
-
-                    if ttc is not None and ttc < min_ttc:
-                        min_ttc = ttc
-                        closest_vehicle = vehicle
-
-            # 处理 min_ttc
-            if min_ttc == float('inf'):
-                min_ttc = None
-
-            # 构造数据字典
-            nearest_vehicle_id = closest_vehicle.id if closest_vehicle else None
-            nearest_vehicle_name = closest_vehicle.type_id.split('.')[1] if closest_vehicle else None
-
-            data = {
-                "timestamp": relative_timestamp,
-                "velocity_modulus": velocity_modulus,
-                "acceleration_modulus": acceleration_modulus,
-                "ttc": min_ttc,  # 最小 TTC
-                # "nearest_vehicle_id": nearest_vehicle_id,  # 最近车辆的ID
-                # "nearest_vehicle_name": nearest_vehicle_name  # 最近车辆的名称
-            }
-
-            # 打印或导出这些数据
-            print(f"Hero Vehicle Data:")
-            print(json.dumps(data, indent=4))
-
-            # 发送数据到 FastAPI 服务器
-            response = requests.post("http://localhost:8001/upload-vehicle-data/", json=data, timeout=1.5)  # 添加超时设置
-            print(f"car data Response from server: {response.json()}")
-
-            # 将车辆数据放入队列以便与其他传感器数据同步
-            # self.image_queue.put(('vehicle', relative_timestamp, json.dumps(data)))
-
-        except Exception as e:
-            print(f"采集车辆数据时发生错误: {str(e)}")
-
-    # def collect_vehicle_data_periodically(self):
-    #     """定期收集车辆数据"""
-    #
-    #     # while True:
-    #     #     self.collect_vehicle_data()
-    #     #     time.sleep(10)  # 每0.1秒收集一次数据
-    #     def run():
-    #         while True:
-    #             self.collect_vehicle_data()
-    #             time.sleep(0.1)  # 调整为更频繁的采集频率
-    #
-    #     thread = threading.Thread(target=run, daemon=True)
-    #     thread.start()
 
     def destroy(self):
         if self.sensor:
@@ -344,14 +247,14 @@ def stitch_images(images):
     row2 = np.concatenate((images_np[2], images_np[3]), axis=1)
     stitched_image = np.concatenate((row1, row2), axis=0)
 
-    print("images stitched into shape(stitch_images):", stitched_image.shape)
+    # print("images stitched into shape(stitch_images):", stitched_image.shape)
 
     return Image.fromarray(stitched_image)
 
 
 def upload_stitched_image(stitched_image, timestamp):
     """上传拼接后的图像到FastAPI服务器"""
-    print("upload_stitched_image......")
+    # print("upload_stitched_image......")
     img_bytes = BytesIO()
     stitched_image.save(img_bytes, format="JPEG")
     img_str = img_bytes.getvalue()
@@ -361,12 +264,12 @@ def upload_stitched_image(stitched_image, timestamp):
         files={"file": ("stitched_frame.jpg", img_str)},
         data={"timestamp": timestamp}
     )
-    print(f"拼接图像响应来自服务器: {response.json()}")
+    # print(f"拼接图像响应来自服务器: {response.json()}")
 
 
 def upload_image(data, endpoint, timestamp):
     """上传图像到FastAPI服务器"""
-    print("上传图像到FastAPI服务器upload_image......")
+    # print("上传图像到FastAPI服务器upload_image......")
     img_bytes = BytesIO()
     data.save(img_bytes, format="JPEG")
     img_str = img_bytes.getvalue()
@@ -376,35 +279,37 @@ def upload_image(data, endpoint, timestamp):
         files={"file": ("frame.jpg", img_str)},
         data={"timestamp": timestamp}
     )
-    print(f"图像响应来自服务器: {response.json()}")
+    # print(f"图像响应来自服务器: {response.json()}")
 
 
 # TODO:UPDATE0226:使其能够处理车辆数据。
-def send_vehicle_data(file_path,index):
-    # 读取车辆数据文件
-    with open(file_path, 'r') as f:
-        vehicle_data = json.load(f)
+def send_vehicle_data(file_path, index):
+    """
+    Read car JSON data from file
+    :param file_path: CARLA client instance
+    :param index: Name of the map to load (e.g., 'Town01', 'Town02')
+    """
 
-    key = 1
+    # 读取车辆数据文件
+    try:
+        with open(file_path, 'r') as f:
+            vehicle_data = json.load(f)
+    except Exception as e:
+        print(f"读取文件有问题{e}")
+
     # 遍历所有数据点
     data_point = vehicle_data[index]
     try:
-        if key == 1:
-            send_vehicle_data_for_1(data_point)
-
-            key = 0
-        else:
-            key = 1
-
+        send_vehicle_data_for_1(data_point)
     except requests.exceptions.RequestException as e:
         print(f"请求异常：{str(e)}")
-
-    # # 严格保持0.05秒间隔
-    # time.sleep(0.05)
 
 
 # TODO:UPDATE0226:使其能够处理车辆数据。
 def send_vehicle_data_for_1(data_point):
+    """
+    传送一帧车辆数据到服务器
+    """
     # 设置请求头
     headers = {
         "Content-Type": "application/json"
@@ -422,9 +327,9 @@ def send_vehicle_data_for_1(data_point):
         if response.status_code != 200:
             print(f"发送失败：时间点 {data_point['time']}，状态码 {response.status_code}")
             print(f"响应内容: {response.json()}")
-        else:
-            print(f"成功发送：时间点 {data_point['time']}")
-            print(f"响应内容: {response.json()}")
+        # else:
+            # print(f"成功发送：时间点 {data_point['time']}")
+            # print(f"响应内容: {response.json()}")
 
     except requests.exceptions.RequestException as e:
         print(f"请求异常：{str(e)}")
@@ -473,7 +378,7 @@ def process_and_upload_all_images(image_queue, replay=False):
                     if index == 4:
                         rgb_pil_image = Image.open(BytesIO(img_str))
                         upload_image(rgb_pil_image, "http://localhost:8001/upload-image/camera/5", timestamp)
-                        print(f"RGB图像{index}已单独上传到 http://localhost:8001/upload-image/camera/5")
+                        # print(f"RGB图像{index}已单独上传到 http://localhost:8001/upload-image/camera/5")
             else:
                 item = image_queue.get(timeout=1)
                 if item[0] == 'lidar':
@@ -487,7 +392,7 @@ def process_and_upload_all_images(image_queue, replay=False):
                     images['rgb'][index] = img_str
                     images['timestamps'][f'rgb_{index}'] = timestamp
 
-            print("#################开始上传图像……process_and_upload_all_images################")
+            # print("#################开始上传图像……process_and_upload_all_images################")
             # 检查是否所有图像都已经收集到
             if all(images['rgb']) and images['lidar'] and images['semantic']:
                 # 获取最早的时间戳
@@ -545,7 +450,7 @@ def run_simulation(client, call_exit=None, replay=False, start=0, duration=0, ca
 
     vehicle = None
     timer = CustomTimer()
-    start_time = time.time()  # 记录模拟开始时间
+    # start_time = time.time()  # 记录模拟开始时间
 
     try:
 
@@ -560,6 +465,7 @@ def run_simulation(client, call_exit=None, replay=False, start=0, duration=0, ca
         # 读取并加载地图
         if replay:
             print("Loading recording...")
+            # TODO:recording.log
             client.replay_file("recording.log", start, duration, camera)
             # print(client.show_recorder_file_info("recording.log"))
             print("Replay started.")
@@ -578,13 +484,13 @@ def run_simulation(client, call_exit=None, replay=False, start=0, duration=0, ca
             else:
                 vehicle = find_hero_vehicle(world)
 
-        print(f"###找到 hero 车辆: {vehicle.id}###")
+        # print(f"###找到 hero 车辆: {vehicle.id}###")
 
         # 创建一个共享队列来存储每个摄像头的图像
-        print("###创建队列image_queue###")
+        # print("###创建队列image_queue###")
         image_queue = queue.Queue(maxsize=16)  # 键值、时间戳、数据
 
-        print("###创建队列image_queue完成，即将初始化sensor_managers列表###")
+        # print("###创建队列image_queue完成，即将初始化sensor_managers列表###")
         if replay:
             sensor_managers = [
                 SensorManager(world, 'LiDAR', carla.Transform(carla.Location(x=0, z=2.4)), vehicle, {
@@ -642,67 +548,32 @@ def run_simulation(client, call_exit=None, replay=False, start=0, duration=0, ca
                               vehicle, {}, 3, image_queue)
             ]
 
-        print("###初始化sensor_managers列表完成，即将启动图像处理线程###")
+        # print("###初始化sensor_managers列表完成，即将启动图像处理线程###")
         # 启动图像处理线程
         process_and_upload_thread = threading.Thread(target=process_and_upload_all_images, args=(image_queue, replay,),
                                                      daemon=True)
         process_and_upload_thread.start()
 
-        # upload_thread = start_vehicle_thread("../logs/vehicle_stats.json")
-
-        # UPDATE0224添加车辆数据采集器
-        # datacollector = SensorManager(world, 'vehicle_data',
-        #                               carla.Transform(),
-        #                               vehicle,
-        #                               {},
-        #                               index=None,
-        #                               image_queue=image_queue),
-
         # Simulation loop
         call_exit = False
-        start_time_for_cycle = timer.time()  # 启动simulation的时间
-        index=0
+        # start_time_for_cycle = timer.time()  # 启动simulation的时间
+        index = 0
         while True:
-            # Carla Tick
-            # UPDATE0225：新增维持实时性
-            start_time = time.time()  # 实际开始时间
 
             frame_id = world.tick()  # 推进仿真时间0.05秒
-            send_vehicle_data("../logs/vehicle_stats.json", index)
+            send_vehicle_data("../logs/vehicle_stats0227.json", index)  # TODO: json
             index += 1
 
-            # snapshot = world.get_snapshot()
-            # sim_time = snapshot.timestamp  # 包含仿真时间的对象
-            # print(f"simulation time: {sim_time.elapsed_seconds}秒")  # 自仿真开始的累积时间
-            # print(f"delta_seconds: {sim_time.delta_seconds}秒")  # 与上一帧的时间间隔
             if replay:
-                # Calculate elapsed time
-                elapsed_time = timer.time() - start_time_for_cycle  # 在这一段循环中过去了多久
 
-                # Check if duration has been reached
-                # if elapsed_time >= duration:
-                if index >= 1631:
-                    print(f"Duration of {duration} seconds reached. Restarting replay.")
+                # TODO 帧
+                if index >= 2139:
+                    # print(f"Duration of {duration} seconds reached. Restarting replay.")
                     client.replay_file("recording.log", start, duration, camera)
                     start_time_for_cycle = timer.time()  # 启动simulation的时间
                     index = 0
 
-            print(f"Calculation for {frame_id} is done.")
-
-            # UPDATE0225：新增维持实时性
-            # compute_time = time.time() - start_time  # 实际耗时可能小于0.05秒
-            # if compute_time < 0.05:
-            #     time.sleep(0.05 - compute_time)  # 维持实时性
-            #     print(f"compute_time < 0.05, and the time elapsed is {compute_time} seconds.")
-            # elif compute_time < 0.1:
-            #     time.sleep(0.1 - compute_time)  # 维持实时性
-            #     print(f"compute_time >= 0.05, and the time elapsed is {compute_time} seconds, so skipping 1 frame.")
-            #     world.tick()  # 推进仿真时间0.05秒
-            # elif compute_time < 0.15:
-            #     time.sleep(0.15 - compute_time)  # 维持实时性
-            #     print(f"compute_time >= 0.1, and the time elapsed is {compute_time} seconds, so skipping 2 frame.")
-            #     world.tick()  # 推进仿真时间0.05秒
-            #     world.tick()
+            # print(f"Calculation for {frame_id} is done.")
 
             if call_exit:
                 break
@@ -748,9 +619,9 @@ def main():
         '-d',
         '--duration',
         metavar='D',
-        default=81.5,
+        default=106.9,  # TODO duration
         type=int,
-        help='Duration of recording (default: 60), replay time is in seconds of duration (default: 81.5)')
+        help='Duration of recording (default: 81.5), replay time is in seconds of duration (default: 81.5)')
 
     args = argparser.parse_args()
 
