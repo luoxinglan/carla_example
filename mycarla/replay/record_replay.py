@@ -3,19 +3,17 @@ import argparse
 import carla
 import time
 
-def record_world(client,duration=60):
-    world = client.get_world()
 
+def record_world(client, filename, duration=60):
     # Start recording for 60 seconds (1 minute)
     print("Starting recording...")
-    client.start_recorder("recording.log", True)
+    client.start_recorder(filename, True)
     time.sleep(duration)  # Record for 1 minute
     client.stop_recorder()
-    print("Recording stopped and saved as 'recording.log'")
+    print(f"Recording stopped and saved as '{filename}'")
+
 
 def replay_record(client):
-    world = client.get_world()
-
     # Load the recorded file
     print("Loading recording...")
     client.replay_file("recording.log", 0, 0, 0)
@@ -33,6 +31,7 @@ def replay_record(client):
     finally:
         print("Stopping replay.")
         client.stop_replay()
+
 
 def main():
     argparser = argparse.ArgumentParser(description=__doc__)
@@ -63,6 +62,13 @@ def main():
         default=60,
         type=int,
         help='Duration of recording (default: 60)')
+    argparser.add_argument(
+        # TODO: the highest frequency to be modified
+        '-f',
+        '--filename',
+        metavar='F',
+        default='recording0306.log',
+        help='Path to recording (default: recording0306.log)')
 
     args = argparser.parse_args()
 
@@ -71,9 +77,10 @@ def main():
     client.set_timeout(10.0)
 
     if args.mode == 'record':
-        record_world(client,duration=args.duration)
+        record_world(client, args.filename, duration=args.duration)
     elif args.mode == 'replay':
         replay_record(client)
+
 
 if __name__ == '__main__':
     main()

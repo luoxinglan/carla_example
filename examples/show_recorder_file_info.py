@@ -39,18 +39,21 @@ def main():
         type=int,
         help='TCP port to listen to (default: 2000)')
     argparser.add_argument(
+        # TODO: this is required.
         '-f', '--recorder_filename',
         metavar='F',
-        default="recording.rec",
-        help='recorder filename (recording.rec)')
+        default="recording0306.log",
+        help='recorder filename (recording0306.log)')
     argparser.add_argument(
+        # TODO: If you want to run a whole period, use '-a'.
         '-a', '--show_all',
         action='store_true',
         help='show detailed info about all frames content')
     argparser.add_argument(
+        # TODO: this is required too.
         '-s', '--save_to_file',
         metavar='S',
-        help='save result to file (specify name and extension)')
+        help='save result to file (specify name and extension such as \'../mycarla/logs/record0306.txt\', and path before it if you need it)')
 
     args = argparser.parse_args()
 

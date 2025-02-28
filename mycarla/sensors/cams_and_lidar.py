@@ -2,15 +2,22 @@ import argparse
 import glob
 import json
 import os
+import pathlib
 import sys
 import requests
 from io import BytesIO
 from PIL import Image
 import queue
 import threading
+
+from numpy.f2py.crackfortran import endifs
+
+from mycarla.routes.routes_recorder import RealtimeLocationLogger
 from car_tracker import calculate_ttc
 import time
 import numpy as np
+
+from mycarla.replay.process_log import process_record
 
 from mycarla.sensors.car_tracker import send_vehicle_data
 
@@ -315,7 +322,7 @@ def send_vehicle_data_for_1(data_point):
         "Content-Type": "application/json"
     }
     try:
-        print(json.dumps(data_point, indent=9))
+        # print(json.dumps(data_point, indent=9))
         # 发送POST请求
         response = requests.post(
             "http://localhost:8001/upload-vehicle-data/",
@@ -328,8 +335,8 @@ def send_vehicle_data_for_1(data_point):
             print(f"发送失败：时间点 {data_point['time']}，状态码 {response.status_code}")
             print(f"响应内容: {response.json()}")
         # else:
-            # print(f"成功发送：时间点 {data_point['time']}")
-            # print(f"响应内容: {response.json()}")
+        #     print(f"成功发送：时间点 {data_point['time']}")
+        #     print(f"响应内容: {response.json()}")
 
     except requests.exceptions.RequestException as e:
         print(f"请求异常：{str(e)}")
@@ -443,9 +450,81 @@ def process_and_upload_all_images(image_queue, replay=False):
 #             start_time = timer.time()  # Reset start time for new replay
 
 
-def run_simulation(client, call_exit=None, replay=False, start=0, duration=0, camera=0):
-    """This function performs one test run using the args parameters
+def draw_route(world, vehicle, route, color=carla.Color(0, 255, 0), life_time=0, index=0):
+    """
+    绘制路线
+    :param world:world
+    :param vehicle:车辆
+    :param route:
+    :param index:下标呗
+    :param color:路线的颜色
+    :param life_time:图形在渲染时的生命周期（秒），建议设置为与仿真时间步长匹配（如60秒），避免路径过早消失。
+    :return:None
+    """
+    # for i in range(index, len(route) - 1):
+    for i in range(0, len(route) - 1):
+        print(
+            f"开始绘制路线，route ({index},{len(route) - 1}) in draw_route, ({route[i].transform.location.x},{route[i].transform.location.y})",
+            i)
+        # 绘制箭头连接相邻两个waypoint
+        # world.debug.draw_arrow(
+        #     begin=route[i].transform.location + carla.Location(z=5),
+        #     end=route[i + 1].transform.location + carla.Location(z=5),
+        #     thickness=0,
+        #     arrow_size=0.1,  # 调整箭头和点的大小以提高可视性。
+        #     color=color,
+        #     life_time=life_time
+        # )
+        print(vehicle.get_transform())
+        # 在waypoint位置绘制标记点
+        world.debug.draw_point(
+            location=route[i].transform.location + carla.Location(z=5),
+            size=0.1,
+            color=color,
+            life_time=life_time
+        )
+
+
+def draw_permanent_route(world, vehicle, route,color=carla.Color(0, 255, 0), life_time=0, index=0):
+    """
+    绘制路线
+    :param world:world
+    :param vehicle:车辆
+    :param index:下标呗
+    :param color:路线的颜色
+    :param life_time:图形在渲染时的生命周期（秒），建议设置为与仿真时间步长匹配（如60秒），避免路径过早消失。
+    :return:None
+    """
+
+    print(f"路径点{index}已被添加")
+    print(vehicle.get_transform())
+    print(vehicle.get_transform().location)
+    # print(route[index].transform.location)
+    # 在waypoint位置绘制标记点
+    world.debug.draw_point(
+        location=vehicle.get_transform().location + carla.Location(z=0.1),
+        size=0.05,
+        color=color,
+        life_time=life_time
+    )
+
+
+def run_simulation(client, frame_count=0, replay=False, start=0, duration=0, camera=0, record_file='recording.log',
+                   json_file='../logs/vehicle_status0306.json', is_route=False, route_file=''):
+    """
+    This function performs one test run using the args parameters
     and connecting to the carla client passed.
+    :param client: carla client
+    :param frame_count: number of frames
+    :param replay: whether to replay the last frame
+    :param start: start time
+    :param duration: duration
+    :param camera: camera id
+    :param record_file: record file
+    :param json_file: json file
+    :param is_route: 是否存在路径文件
+    :param route_file: 路径文件的位置
+    :return: None
     """
 
     vehicle = None
@@ -459,15 +538,15 @@ def run_simulation(client, call_exit=None, replay=False, start=0, duration=0, ca
         original_settings = world.get_settings()
         settings = original_settings
         settings.synchronous_mode = True
-        settings.fixed_delta_seconds = 0.05
+        settings.fixed_delta_seconds = 0.05  # 仿真时间步长
         world.apply_settings(settings)
 
         # 读取并加载地图
         if replay:
             print("Loading recording...")
             # TODO:recording.log
-            client.replay_file("recording.log", start, duration, camera)
-            # print(client.show_recorder_file_info("recording.log"))
+            client.replay_file(record_file, start, duration, camera)
+            # print(client.show_recorder_file_info(record_file))
             print("Replay started.")
             # 等待地图加载完成UPDATE0217
             wait_for_map_load(world)
@@ -484,7 +563,17 @@ def run_simulation(client, call_exit=None, replay=False, start=0, duration=0, ca
             else:
                 vehicle = find_hero_vehicle(world)
 
-        # print(f"###找到 hero 车辆: {vehicle.id}###")
+        if not is_route:
+            print("路线信息不存在")
+            logger = RealtimeLocationLogger(route_file, buffer_size=50)
+        else:  # 如果路线读取出来了，绘制路线
+            logger = RealtimeLocationLogger(route_file, is_route=True)
+            print("路线信息存在")
+            waypoint_list = logger.load_waypoints_from_csv(world)
+            # for waypoint in waypoint_list:
+            #     print(waypoint.transform)
+            print("waypoint_list", len(waypoint_list))
+            # draw_route(world,index=, waypoint_list,life_time=duration)
 
         # 创建一个共享队列来存储每个摄像头的图像
         # print("###创建队列image_queue###")
@@ -558,26 +647,44 @@ def run_simulation(client, call_exit=None, replay=False, start=0, duration=0, ca
         call_exit = False
         # start_time_for_cycle = timer.time()  # 启动simulation的时间
         index = 0
+        key=True
+        # draw_route(world, vehicle, waypoint_list, index=index, life_time=duration)
         while True:
 
             frame_id = world.tick()  # 推进仿真时间0.05秒
-            send_vehicle_data("../logs/vehicle_stats0227.json", index)  # TODO: json
+            send_vehicle_data(json_file, index)  # TODO: json
+            if key:
+                draw_permanent_route(world, vehicle, waypoint_list, index=index, life_time=0)
+            # TODO: 在这里调用函数，检查是否存在route文件，没有的话就记录，在下一次运行的时候读取。
+            if not is_route:
+                logger.record(vehicle)
+                # 每10秒强制写入一次
+                if time.time() % 10 < 0.1:
+                    logger.flush()
+
             index += 1
 
             if replay:
 
                 # TODO 帧
-                if index >= 2139:
+                if index >= frame_count:
                     # print(f"Duration of {duration} seconds reached. Restarting replay.")
-                    client.replay_file("recording.log", start, duration, camera)
+                    client.replay_file(record_file, start, duration, camera)
                     start_time_for_cycle = timer.time()  # 启动simulation的时间
                     index = 0
+                    key=False
+                    # draw_route(world,vehicle, waypoint_list, index=index, life_time=duration)
+
+                    if not is_route:
+                        logger.flush()  # 写入剩余的数据
+                        break
 
             # print(f"Calculation for {frame_id} is done.")
 
             if call_exit:
                 break
 
+            time.sleep(0.05)
 
 
 
@@ -591,6 +698,101 @@ def run_simulation(client, call_exit=None, replay=False, start=0, duration=0, ca
         # UPDATE0217
         if replay:
             print("Replay stopped.")
+
+
+def run_recording_route(client, frame_count=0, replay=False, start=0, duration=0, camera=0, record_file='recording.log',
+                        is_route=False, route_file=''):
+    """
+    This function performs one test run using the args parameters
+    and connecting to the carla client passed.
+    :param client: carla client
+    :param frame_count: number of frames
+    :param replay: whether to replay the last frame
+    :param start: start time
+    :param duration: duration
+    :param camera: camera id
+    :param record_file: record file
+    :param is_route: 是否存在路径文件
+    :param route_file: 路径文件的位置
+    :return: None
+    """
+
+    timer = CustomTimer()
+    # start_time = time.time()  # 记录模拟开始时间
+
+    try:
+
+        # Getting the world and settings
+        world = client.get_world()
+        original_settings = world.get_settings()
+        settings = original_settings
+        settings.synchronous_mode = False
+        # settings.fixed_delta_seconds = 0.05  # 仿真时间步长
+        world.apply_settings(settings)
+
+        # 读取并加载地图
+        if replay:
+            print("Loading recording...")
+            # TODO:recording.log
+            client.replay_file(record_file, start, duration, camera)
+            # print(client.show_recorder_file_info(record_file))
+            print("Replay and storing the route started.")
+            # 等待地图加载完成UPDATE0217
+            wait_for_map_load(world)
+
+        print("Starting simulation...")
+
+        # 查找名为 'hero' 的车辆
+        vehicle = find_hero_vehicle(world)
+        while True:
+            if vehicle:
+                print(f"找到 hero 车辆: {vehicle.id}")
+                # print("未找到 hero 车辆。")
+                break
+            else:
+                vehicle = find_hero_vehicle(world)
+
+        if not is_route:
+            logger = RealtimeLocationLogger(route_file, buffer_size=50)
+
+        # Simulation loop
+        call_exit = False
+        # start_time_for_cycle = timer.time()  # 启动simulation的时间
+        index = 0
+        while True:
+
+            frame_id = world.tick()  # 推进仿真一帧
+            # TODO: 在这里调用函数，检查是否存在route文件，没有的话就记录，在下一次运行的时候读取。
+            if not is_route:
+                logger.record(vehicle)
+                # 每10秒强制写入一次
+                if time.time() % 10 < 0.1:
+                    logger.flush()
+
+            index += 1
+
+            if replay:
+
+                # TODO 帧
+                if index >= frame_count:
+                    # print(f"Duration of {duration} seconds reached. Restarting replay.")
+                    client.replay_file(record_file, start, duration, camera)
+                    start_time_for_cycle = timer.time()  # 启动simulation的时间
+                    index = 0
+                    if not is_route:
+                        logger.flush()  # 写入剩余的数据
+                        break
+
+            # print(f"Calculation for {frame_id} is done.")
+
+            if call_exit:
+                break
+
+    finally:
+        world.apply_settings(original_settings)  # 恢复原始设置
+        # UPDATE0217
+        if replay:
+            print("Replay and storing the route stopped.")
 
 
 def main():
@@ -616,12 +818,49 @@ def main():
         default='replay',
         help='Mode to run: replay or live (default: replay)')
     argparser.add_argument(
+        # TODO: this is required.回放帧数，由process_record返回值确定。不需要修改默认值，在执行时会更新
+        '-c', '--count_of_frames',
+        metavar='C',
+        default=0,
+        type=int,
+        help='frames of recorder json data,this can not be ignored in replay mode ')
+    argparser.add_argument(
+        # TODO: this is required.回放时长，根据帧数计算出来。不需要修改默认值，在执行时会更新
         '-d',
         '--duration',
         metavar='D',
-        default=106.9,  # TODO duration
-        type=int,
-        help='Duration of recording (default: 81.5), replay time is in seconds of duration (default: 81.5)')
+        default=0,
+        help='Duration of recording (default: 81.5), replay time is in seconds of duration (default: 0)')
+    argparser.add_argument(
+        # TODO: this is required.carla回放文件，须加载。运行前需确认。
+        '-l', '--log_filename',
+        metavar='L',
+        default="recording0306.log",
+        help='recorder carla data filename (recording.log)')
+    argparser.add_argument(
+        # TODO: this is required.未处理的可阅读日志文件。运行前需确认。
+        '-i', '--input_filename',
+        metavar='I',
+        default="../logs/record0306.txt",
+        help='未处理的可阅读日志文件recorder filename (record0306.txt)')
+    argparser.add_argument(
+        # TODO: this is required.处理后输出json文件以读取json的路径。运行前需确认。
+        '-j', '--json_filename',
+        metavar='J',
+        default="../logs/vehicle_status0306.json",
+        help='recorder json data filename (../logs/vehicle_status0306.json)')
+    argparser.add_argument(
+        # TODO: this is required.route的路径文件。运行前需确认。
+        '-r', '--route_file',
+        metavar='R',
+        default="../routes/vehicle_route0306.csv",
+        help='recorder route_file data filename (../routes/vehicle_route0306.csv)')
+    argparser.add_argument(
+        '-t',
+        '--target_id',
+        metavar='T',
+        default='141',
+        help='hero car id (or index) (default: 141)')
 
     args = argparser.parse_args()
 
@@ -631,7 +870,23 @@ def main():
 
     if args.mode == 'replay':
         print("Running in replay mode.")
-        run_simulation(client, replay=True, duration=args.duration)
+        args.count_of_frames = process_record(args.input_filename, args.json_filename, args.target_id)
+
+        print("Count of frames: %d" % args.count_of_frames)
+        args.duration = (args.count_of_frames - 1) * 0.05
+
+        print("Duration of recording: %d" % args.duration)
+        if pathlib.Path(args.route_file).exists():
+            run_simulation(client, frame_count=args.count_of_frames, replay=True, duration=args.duration,
+                           record_file=args.log_filename, json_file=args.json_filename, is_route=True,
+                           route_file=args.route_file)
+        else:  # 如果路径文件不存在，就先运行完，存储到route的json文件中，等待下一次运行。
+            run_recording_route(client, frame_count=args.count_of_frames, replay=True, duration=args.duration,
+                                record_file=args.log_filename, is_route=False,
+                                route_file=args.route_file)
+            # run_simulation(client, frame_count=args.count_of_frames, replay=True, duration=args.duration,
+            #                record_file=args.log_filename, json_file=args.json_filename, is_route=True,
+            #                route_file=args.route_file)
     elif args.mode == 'live':
         print("Running in live mode.")
         run_simulation(client, replay=False)

@@ -1,9 +1,15 @@
+import argparse
 import re
 import json
 import math
 
 
 def parse_frame_blocks(content):
+    """
+    分割内容
+
+    :param content:文件内容
+    """
     frame_blocks = []
     current_block = []
     for line in content.split('\n'):
@@ -22,7 +28,12 @@ def parse_frame_blocks(content):
     return frame_blocks
 
 
-def parse_frame_block(block):
+def parse_block(block):
+    """
+    分割每一个块的内容
+
+    :param block:一个块
+    """
     frame_data = {'time': 0.0, 'positions': {}, 'velocities': {}, 'controls': {}}
     # 解析时间戳
     time_match = re.search(r'Frame \d+ at ([\d.]+) seconds', block[0])
@@ -47,7 +58,7 @@ def parse_frame_block(block):
                 y = float(match.group(3))
                 frame_data['positions'][entity_id] = (x, y)
                 # if entity_id == '91':
-                    # print(f"解析位置信息 - 实体ID {entity_id}: ({x}, {y})")
+                # print(f"解析位置信息 - 实体ID {entity_id}: ({x}, {y})")
 
     # 解析速度信息
     dynamic_section = False
@@ -71,7 +82,7 @@ def parse_frame_block(block):
 
                 # 调试特定车辆
                 # if entity_id == '91':
-                    # print(f"解析速度信息 - 实体ID {entity_id} | 线速度分量: ({vx}, {vy})")
+                # print(f"解析速度信息 - 实体ID {entity_id} | 线速度分量: ({vx}, {vy})")
 
     # 解析控制信息
     frame_data['controls'] = parse_vehicle_control_section(block)
@@ -82,6 +93,10 @@ def parse_frame_block(block):
 
 
 def parse_vehicle_control_section(block, target_id='141'):
+    """
+    解析block的控制信息。
+    :param block:一个块
+    """
     control_section = False
     vehicle_controls = {}
 
@@ -93,7 +108,9 @@ def parse_vehicle_control_section(block, target_id='141'):
             control_section = False
             continue
         if control_section:
-            match = re.match(r'\s*Id: (\d+) Steering: ([-\d.eE+-]+) Throttle: ([-\d.eE+-]+) Brake ([-\d.eE+-]+) Handbrake: ([-\d.eE+-]+) Gear: (\d+)', line)
+            match = re.match(
+                r'\s*Id: (\d+) Steering: ([-\d.eE+-]+) Throttle: ([-\d.eE+-]+) Brake ([-\d.eE+-]+) Handbrake: ([-\d.eE+-]+) Gear: (\d+)',
+                line)
             if match:
                 entity_id = match.group(1)
                 steering = float(match.group(2))
@@ -115,8 +132,15 @@ def parse_vehicle_control_section(block, target_id='141'):
     return vehicle_controls
 
 
-
 def calculate_ttc(target_pos, target_vel, other_pos, other_vel):
+    """
+    计算目标车辆的TTC
+
+    :param target_pos:目标车辆的位置
+    :param target_vel:目标车辆的速度
+    :param other_pos:参照车辆的位置
+    :param other_vel:参照车辆的位置
+    """
     dx = other_pos[0] - target_pos[0]
     dy = other_pos[1] - target_pos[1]
     distance = math.hypot(dx, dy)
@@ -138,6 +162,12 @@ def calculate_ttc(target_pos, target_vel, other_pos, other_vel):
 
 
 def process_frames(frames_data, target_id):
+    """
+    处理每一帧的数据。
+
+    :param frames_data:所有数据
+    :param target_id:目标车辆的id
+    """
     results = []
     prev_speed = None
     prev_time = None
@@ -174,18 +204,17 @@ def process_frames(frames_data, target_id):
             if ttc < min_ttc:
                 min_ttc = ttc
 
-
         # 处理结果TODO id
         result = {
             'time': round(current_time, 2),
             'speed': round(speed, 3),
             'acceleration': round(acceleration, 3) if acceleration is not None else None,
             'min_ttc': round(min_ttc, 3) if min_ttc != float('inf') else None,
-            'steering': round(frame['controls']['141']['steering'], 3),
-            'throttle': round(frame['controls']['141']['throttle'], 3),
-            'brake': round(frame['controls']['141']['brake'], 3),
-            'handbrake': round(frame['controls']['141']['handbrake'], 3),
-            'gear': frame['controls']['141']['gear']
+            'steering': round(frame['controls'][target_id]['steering'], 3),
+            'throttle': round(frame['controls'][target_id]['throttle'], 3),
+            'brake': round(frame['controls'][target_id]['brake'], 3),
+            'handbrake': round(frame['controls'][target_id]['handbrake'], 3),
+            'gear': frame['controls'][target_id]['gear']
         }
         results.append(result)
         # print(f"处理帧数据 - 时间 {current_time}: 速度={speed}, 加速度={acceleration}, 最小TTC={min_ttc}")
@@ -198,22 +227,58 @@ def process_frames(frames_data, target_id):
     return results
 
 
-def main(input_file, output_file, target_id):
+def process_record(input_file, json_filename, target_id):
+    """
+    将未处理的可阅读日志文件转换为格式化的json文件
+    :param input_file:未处理的可阅读日志文件
+    :param json_filename:输出的格式化的json文件
+    :param target_id:hero的id
+    """
+    # 读取文件
     with open(input_file, 'r') as f:
         content = f.read()
 
+    # 分解成帧
     frame_blocks = parse_frame_blocks(content)
     print(f"解析出 {len(frame_blocks)} 帧块。")
 
-    frames_data = [parse_frame_block(block) for block in frame_blocks]
+    # 逐个分析帧
+    frames_data = [parse_block(block) for block in frame_blocks]
     results = process_frames(frames_data, target_id)
 
-    with open(output_file, 'w') as f:
+    # 将解析后的数据写入json
+    with open(json_filename, 'w') as f:
         json.dump(results, f, indent=2)
-    print(f"结果已保存到 {output_file}")
+    print(f"结果已保存到 {json_filename}")
+    return len(results)
+
+
+def main():
+    argparser = argparse.ArgumentParser(
+        description=__doc__)
+    argparser.add_argument(
+        # TODO: this is required.
+        '-i', '--input_filename',
+        metavar='I',
+        default="../logs/record0306.txt",
+        help='recorder filename (record0306.txt)')
+    argparser.add_argument(
+        # TODO: this is required too.
+        '-j', '--json_filename',
+        metavar='J',
+        default="../logs/vehicle_status0306.json",
+        help='save result to file (specify name and extension such as \'../logs/vehicle_status0306.json\', and path before it if you need it)')
+    argparser.add_argument(
+        # TODO: this is required too.
+        '-t',
+        '--target_id',
+        metavar='T',
+        default='141',
+        help='hero car id (or index) (default: 141)')
+    args = argparser.parse_args()
+    # 使用示例（需要替换实际文件路径和目标ID）
+    process_record(args.input_filename, args.json_filename, args.target_id)
 
 
 if __name__ == '__main__':
-    # 使用示例（需要替换实际文件路径和目标ID）
-    main('/home/heihuhu/Projects/CARLA_0.9.13_safebench/PythonAPI/mycarla/logs/recrod0227.txt',
-         '../logs/vehicle_stats0227.json', '141')
+    main()
