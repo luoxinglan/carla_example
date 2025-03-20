@@ -81,7 +81,8 @@ python ./mycarla/sensors/cams_and_lidar.py #需要配合服务器启动
 
 - 效果展示
 -   ![92984a2b9c11384c0041e90c1dc723e](https://github.com/user-attachments/assets/e281edb4-bd1d-4d12-8428-6c6e314df9c7)
--   ![image](https://github.com/user-attachments/assets/2ef4d70d-4d29-4583-b4c9-97f72e505743)
+-   ![image](https://github.com/user-attachments/assets/ad1d1ad6-dc64-4ae3-ace6-3213577dcd85)
+
 
 
 
