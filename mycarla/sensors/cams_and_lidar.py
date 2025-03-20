@@ -13,7 +13,7 @@ import threading
 from numpy.f2py.crackfortran import endifs
 
 from mycarla.routes.routes_recorder import RealtimeLocationLogger
-from car_tracker import calculate_ttc
+# from car_tracker import calculate_ttc
 import time
 import numpy as np
 
@@ -290,26 +290,70 @@ def upload_image(data, endpoint, timestamp):
 
 
 # TODO:UPDATE0226:使其能够处理车辆数据。
-def send_vehicle_data(file_path, index):
+def send_vehicle_data(vehicle, file_path, index, previous_state):
     """
     Read car JSON data from file
     :param file_path: CARLA client instance
     :param index: Name of the map to load (e.g., 'Town01', 'Town02')
     """
+    acceleration = 0
+    control = vehicle.get_control()
+    # print(control)
+    # print("vehicle.get_velocity()", vehicle.get_velocity())
+    # print("vehicle.get_acceleration()", vehicle.get_acceleration())
+    current_location = vehicle.get_location()
+    current_time = time.time()
 
-    # 读取车辆数据文件
-    try:
-        with open(file_path, 'r') as f:
-            vehicle_data = json.load(f)
-    except Exception as e:
-        print(f"读取文件有问题{e}")
+    # 初始化默认值
+    speed = 0.0
+    acceleration = 0.0
+    new_velocity = None
+    # 解包前次状态
+    prev_location, prev_velocity, prev_time = previous_state
 
-    # 遍历所有数据点
-    data_point = vehicle_data[index]
-    try:
-        send_vehicle_data_for_1(data_point)
-    except requests.exceptions.RequestException as e:
-        print(f"请求异常：{str(e)}")
+    if prev_location and prev_time:
+        delta_time = current_time - prev_time
+
+        # 避免除零错误
+        if delta_time > 1e-6:  # 0.000001秒阈值
+            # 计算三维速度向量
+            delta_location = current_location - prev_location
+            new_velocity = delta_location / delta_time
+            speed = new_velocity.length()  # 标量速度
+
+            # 计算加速度
+            if prev_velocity:
+                print(f"prev_velocity: {prev_velocity}, new_velocity: {new_velocity}")
+                delta_velocity = new_velocity.length() - prev_velocity.length()
+                acceleration = delta_velocity / delta_time  # 加速度标量值
+    data = {
+        "time": current_time,
+        "speed": round(speed, 3),
+        "acceleration": round(acceleration, 3),
+        "min_ttc": 0,
+        "steering": control.steer,
+        "throttle": control.throttle,
+        "brake": control.brake,
+        "handbrake": control.hand_brake,
+        "gear": control.gear,
+    }
+    print(data)
+    send_vehicle_data_for_1(data)
+
+    return current_location, new_velocity, current_time
+    # # 读取车辆数据文件
+    # try:
+    #     with open(file_path, 'r') as f:
+    #         vehicle_data = json.load(f)
+    # except Exception as e:
+    #     print(f"读取文件有问题{e}")
+    #
+    # # 遍历所有数据点
+    # data_point = vehicle_data[index]
+    # try:
+    #     send_vehicle_data_for_1(data_point)
+    # except requests.exceptions.RequestException as e:
+    #     print(f"请求异常：{str(e)}")
 
 
 # TODO:UPDATE0226:使其能够处理车辆数据。
@@ -485,7 +529,7 @@ def draw_route(world, vehicle, route, color=carla.Color(0, 255, 0), life_time=0,
         )
 
 
-def draw_permanent_route(world, vehicle, route,color=carla.Color(0, 255, 0), life_time=0, index=0):
+def draw_permanent_route(world, vehicle, route, color=carla.Color(0, 255, 0), life_time=0, index=0):
     """
     绘制路线
     :param world:world
@@ -496,9 +540,9 @@ def draw_permanent_route(world, vehicle, route,color=carla.Color(0, 255, 0), lif
     :return:None
     """
 
-    print(f"路径点{index}已被添加")
-    print(vehicle.get_transform())
-    print(vehicle.get_transform().location)
+    # print(f"路径点{index}已被添加")
+    # print(vehicle.get_transform())
+    # print(vehicle.get_transform().location)
     # print(route[index].transform.location)
     # 在waypoint位置绘制标记点
     world.debug.draw_point(
@@ -537,8 +581,8 @@ def run_simulation(client, frame_count=0, replay=False, start=0, duration=0, cam
         world = client.get_world()
         original_settings = world.get_settings()
         settings = original_settings
-        settings.synchronous_mode = True
-        settings.fixed_delta_seconds = 0.05  # 仿真时间步长
+        # settings.synchronous_mode = True
+        # settings.fixed_delta_seconds = 0.05  # 仿真时间步长
         world.apply_settings(settings)
 
         # 读取并加载地图
@@ -645,14 +689,20 @@ def run_simulation(client, frame_count=0, replay=False, start=0, duration=0, cam
 
         # Simulation loop
         call_exit = False
-        # start_time_for_cycle = timer.time()  # 启动simulation的时间
+        start_time_for_cycle = timer.time()  # 启动simulation的时间
         index = 0
-        key=True
+        key = True
+        previous_state = (None, None, None)
         # draw_route(world, vehicle, waypoint_list, index=index, life_time=duration)
         while True:
 
             frame_id = world.tick()  # 推进仿真时间0.05秒
-            send_vehicle_data(json_file, index)  # TODO: json
+            # print("vehicle.get_velocity()", vehicle.get_velocity())
+            # print("vehicle.get_acceleration()", vehicle.get_acceleration())
+            # print("vehicle.get_angular_velocity()", vehicle.get_angular_velocity())
+
+            previous_state = send_vehicle_data(vehicle, json_file, index, previous_state)  # TODO: json
+
             if key:
                 draw_permanent_route(world, vehicle, waypoint_list, index=index, life_time=0)
             # TODO: 在这里调用函数，检查是否存在route文件，没有的话就记录，在下一次运行的时候读取。
@@ -667,12 +717,13 @@ def run_simulation(client, frame_count=0, replay=False, start=0, duration=0, cam
             if replay:
 
                 # TODO 帧
-                if index >= frame_count:
+                # if index >= frame_count:
+                if timer.time() - start_time_for_cycle >= duration:
                     # print(f"Duration of {duration} seconds reached. Restarting replay.")
                     client.replay_file(record_file, start, duration, camera)
                     start_time_for_cycle = timer.time()  # 启动simulation的时间
                     index = 0
-                    key=False
+                    key = False
                     # draw_route(world,vehicle, waypoint_list, index=index, life_time=duration)
 
                     if not is_route:
@@ -684,7 +735,7 @@ def run_simulation(client, frame_count=0, replay=False, start=0, duration=0, cam
             if call_exit:
                 break
 
-            time.sleep(0.05)
+            # time.sleep(0.05)
 
 
 

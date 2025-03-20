@@ -52,6 +52,49 @@ Use ARROWS or WASD keys for control.
     F1           : toggle HUD
     H/?          : toggle help
     ESC          : quit
+
+欢迎使用CARLA手动控制。
+
+使用ARROWS或WASD键进行控制。
+
+W：油门
+S：制动器
+A/D：左/右转向
+问：切换反向
+空间：手刹
+P：切换自动驾驶仪
+M：切换手动变速器
+,/.          : 加速/减速
+CTRL+W：以60 km/h的速度切换恒速模式
+
+L：切换下一种灯光类型
+SHIFT+L：切换远光灯
+Z/X：切换右/左转向灯
+I：切换车内灯
+
+TAB：更改传感器位置
+`或N：下一个传感器
+[1-9]：更改为传感器[1-9>
+G：切换雷达可视化
+C：改变天气（Shift+C倒档）
+后方空间：更换车辆
+
+O：打开/关闭车辆的所有车门
+T：切换车辆遥测
+
+V：选择下一个贴图层（Shift+V反转）
+B：加载当前选定的地图图层（Shift+B可卸载）
+
+R：切换将图像记录到磁盘
+
+CTRL+R：切换模拟录制（替换之前的任何录制）
+CTRL+P：开始重放上次录制的模拟
+CTRL++：将重播的开始时间增加1秒（+SHIFT=10秒）
+CTRL+-：将重播的开始时间减少1秒（+SHIFT=10秒）
+
+F1：切换HUD
+H/？：切换帮助
+ESC：退出
 """
 
 from __future__ import print_function
@@ -64,6 +107,9 @@ from __future__ import print_function
 import glob
 import os
 import sys
+import time
+
+from mycarla.sensors.cams_and_lidar import find_hero_vehicle
 
 try:
     sys.path.append(glob.glob('../carla/dist/carla-*%d.%d-%s.egg' % (
@@ -189,7 +235,7 @@ def get_actor_blueprints(world, filter, generation):
 
 
 class World(object):
-    def __init__(self, carla_world, hud, args):
+    def __init__(self, carla_world, hud, args, last_player=None):
         self.world = carla_world
         self.sync = args.sync
         self.actor_role_name = args.rolename
@@ -202,6 +248,7 @@ class World(object):
             sys.exit(1)
         self.hud = hud
         self.player = None
+        self.last_player = last_player
         self.collision_sensor = None
         self.lane_invasion_sensor = None
         self.gnss_sensor = None
@@ -236,6 +283,7 @@ class World(object):
         ]
 
     def restart(self):
+        # 更换车辆，而不是重新开始
         self.player_max_speed = 1.589
         self.player_max_speed_fast = 3.713
         # Keep same camera config if the camera manager exists.
@@ -258,25 +306,34 @@ class World(object):
             self.player_max_speed_fast = float(blueprint.get_attribute('speed').recommended_values[2])
 
         # Spawn the player.
-        if self.player is not None:
+        if self.player is not None:  # 如果有player，那么就销毁原来的车，然后在原来的位置上重新生成新车
+            print(f"self.player in World.restart: {self.player}, vehicle.role_name={self.actor_role_name} BEFORE")
+            self.player_id = self.player.id
             spawn_point = self.player.get_transform()
             spawn_point.location.z += 2.0
             spawn_point.rotation.roll = 0.0
             spawn_point.rotation.pitch = 0.0
-            self.destroy()
-            self.player = self.world.try_spawn_actor(blueprint, spawn_point)
+            self.destroy()  # 那么就销毁原来的车
+            self.player = self.world.try_spawn_actor(blueprint, spawn_point)  # 在原来的位置上重新生成新车
+            print(f"self.player in World.restart: {self.player}, vehicle.role_name={self.actor_role_name} AFTER")
             self.show_vehicle_telemetry = False
             self.modify_vehicle_physics(self.player)
-        while self.player is None:
-            if not self.map.get_spawn_points():
-                print('There are no spawn points available in your map/town.')
-                print('Please add some Vehicle Spawn Point to your UE4 scene.')
-                sys.exit(1)
-            spawn_points = self.map.get_spawn_points()
-            spawn_point = random.choice(spawn_points) if spawn_points else carla.Transform()
-            self.player = self.world.try_spawn_actor(blueprint, spawn_point)
-            self.show_vehicle_telemetry = False
-            self.modify_vehicle_physics(self.player)
+        while self.player is None:  # 如果没有player
+            print("WORLD: 没有player")
+            if self.last_player is None:
+                print("WORLD: 没有last_player")
+                if not self.map.get_spawn_points():  # 检查出生点是否可用
+                    print('There are no spawn points available in your map/town.')
+                    print('Please add some Vehicle Spawn Point to your UE4 scene.')
+                    sys.exit(1)
+                spawn_points = self.map.get_spawn_points()
+                spawn_point = random.choice(spawn_points) if spawn_points else carla.Transform()
+                self.player = self.world.try_spawn_actor(blueprint, spawn_point)
+                self.show_vehicle_telemetry = False
+                self.modify_vehicle_physics(self.player)
+            else:
+                print(f"WORLD: player：{self.player}已经被更换为lastplayer：{self.last_player}")
+                self.player = self.last_player
         # Set up the sensors.
         self.collision_sensor = CollisionSensor(self.player, self.hud)
         self.lane_invasion_sensor = LaneInvasionSensor(self.player, self.hud)
@@ -359,23 +416,6 @@ class World(object):
         if self.player is not None:
             self.player.destroy()
 
-    # UPDATE0109：切换地图
-    def load_map(self,client, map_name='Town10'):
-        """
-        Load a specific map in CARLA.
-        :param client: CARLA client instance
-        :param map_name: Name of the map to load (e.g., 'Town01', 'Town02')
-        """
-        world = self.world
-        current_map_name = world.get_map().name.split('/')[-1]
-        if current_map_name != map_name:
-            print(f"Loading new map: {map_name}")
-            client.load_world(map_name)
-            world = client.get_world()
-            print(f"Map loaded: {world.get_map().name.split('/')[-1]}")
-        else:
-            print(f"Already on the desired map: {current_map_name}")
-
 
 # ==============================================================================
 # -- KeyboardControl -----------------------------------------------------------
@@ -387,12 +427,12 @@ class KeyboardControl(object):
 
     def __init__(self, world, start_in_autopilot):
         self._autopilot_enabled = start_in_autopilot
-        if isinstance(world.player, carla.Vehicle):
+        if isinstance(world.player, carla.Vehicle):  # 如果是一辆车
             self._control = carla.VehicleControl()
             self._lights = carla.VehicleLightState.NONE
             world.player.set_autopilot(self._autopilot_enabled)
             world.player.set_light_state(self._lights)
-        elif isinstance(world.player, carla.Walker):
+        elif isinstance(world.player, carla.Walker):  # 如果是行人
             self._control = carla.WalkerControl()
             self._autopilot_enabled = False
             self._rotation = world.player.get_transform().rotation
@@ -481,16 +521,18 @@ class KeyboardControl(object):
                     world.camera_manager.set_sensor(event.key - 1 - K_0 + index_ctrl)
                 elif event.key == K_r and not (pygame.key.get_mods() & KMOD_CTRL):
                     world.camera_manager.toggle_recording()
-                elif event.key == K_r and (pygame.key.get_mods() & KMOD_CTRL):
+                elif event.key == K_r and (pygame.key.get_mods() & KMOD_CTRL):  # CTRL+R：切换模拟录制（替换之前的任何录制）
                     if (world.recording_enabled):
                         client.stop_recorder()
                         world.recording_enabled = False
                         world.hud.notification("Recorder is OFF")
                     else:
-                        client.start_recorder("manual_recording.rec")
+                        world.player_id = world.player.id
+                        print(f"world id: {world.player_id}")
+                        client.start_recorder(f"manual_recording{world.player_id}.rec")
                         world.recording_enabled = True
-                        world.hud.notification("Recorder is ON")
-                elif event.key == K_p and (pygame.key.get_mods() & KMOD_CTRL):
+                        world.hud.notification(f"Recorder{world.player_id} is ON")
+                elif event.key == K_p and (pygame.key.get_mods() & KMOD_CTRL):  # TODO CTRL+P：开始重放上次录制的模拟
                     # stop recorder
                     client.stop_recorder()
                     world.recording_enabled = False
@@ -502,7 +544,11 @@ class KeyboardControl(object):
                     world.player.set_autopilot(self._autopilot_enabled)
                     world.hud.notification("Replaying file 'manual_recording.rec'")
                     # replayer
-                    client.replay_file("manual_recording.rec", world.recording_start, 0, 0)
+                    # file, car_id = self.find_latest_recording("/home/heihuhu/.config/Epic/CarlaUE4/Saved")
+                    # client.replay_file(file, world.recording_start, 0, 0)
+                    # if world.search_car_by_id(car_id) is not None:
+                    #     world.player = world.search_car_by_id(car_id)
+                    #     print(world.player)
                     world.camera_manager.set_sensor(current_index)
                 elif event.key == K_MINUS and (pygame.key.get_mods() & KMOD_CTRL):
                     if pygame.key.get_mods() & KMOD_SHIFT:
@@ -648,8 +694,8 @@ class HUD(object):
         mono = default_font if default_font in fonts else fonts[0]
         mono = pygame.font.match_font(mono)
         self._font_mono = pygame.font.Font(mono, 12 if os.name == 'nt' else 14)
-        self._notifications = FadingText(font, (width, 40), (0, height - 40))
-        self.help = HelpText(pygame.font.Font(mono, 16), width, height)
+        self._notifications = FadingText(font, (width, 40), (0, height - 40))  # FadingText类
+        self.help = HelpText(pygame.font.Font(mono, 16), width, height)  # HelpText类
         self.server_fps = 0
         self.frame = 0
         self.simulation_time = 0
@@ -1049,6 +1095,7 @@ class CameraManager(object):
         self.sensor = None
         self.surface = None
         self._parent = parent_actor
+        print("CAMERA_MANAGER: parent_actor: ", parent_actor)
         self.hud = hud
         self.recording = False
         bound_x = 0.5 + self._parent.bounding_box.extent.x
@@ -1061,7 +1108,8 @@ class CameraManager(object):
                 (carla.Transform(carla.Location(x=-2.0 * bound_x, y=+0.0 * bound_y, z=2.0 * bound_z),
                                  carla.Rotation(pitch=8.0)), Attachment.SpringArm),
                 (
-                carla.Transform(carla.Location(x=+0.8 * bound_x, y=+0.0 * bound_y, z=1.3 * bound_z)), Attachment.Rigid),
+                    carla.Transform(carla.Location(x=+0.8 * bound_x, y=+0.0 * bound_y, z=1.3 * bound_z)),
+                    Attachment.Rigid),
                 (carla.Transform(carla.Location(x=+1.9 * bound_x, y=+1.0 * bound_y, z=1.2 * bound_z)),
                  Attachment.SpringArm),
                 (carla.Transform(carla.Location(x=-2.8 * bound_x, y=+0.0 * bound_y, z=4.6 * bound_z),
@@ -1072,7 +1120,8 @@ class CameraManager(object):
                 (carla.Transform(carla.Location(x=-2.5, z=0.0), carla.Rotation(pitch=-8.0)), Attachment.SpringArm),
                 (carla.Transform(carla.Location(x=1.6, z=1.7)), Attachment.Rigid),
                 (
-                carla.Transform(carla.Location(x=2.5, y=0.5, z=0.0), carla.Rotation(pitch=-8.0)), Attachment.SpringArm),
+                    carla.Transform(carla.Location(x=2.5, y=0.5, z=0.0), carla.Rotation(pitch=-8.0)),
+                    Attachment.SpringArm),
                 (carla.Transform(carla.Location(x=-4.0, z=2.0), carla.Rotation(pitch=6.0)), Attachment.SpringArm),
                 (carla.Transform(carla.Location(x=0, y=-2.5, z=-0.0), carla.Rotation(yaw=90.0)), Attachment.Rigid)]
 
@@ -1127,14 +1176,15 @@ class CameraManager(object):
         index = index % len(self.sensors)
         needs_respawn = True if self.index is None else \
             (force_respawn or (self.sensors[index][2] != self.sensors[self.index][2]))
-        if needs_respawn:
+        if needs_respawn:  # 需要重新生成
             if self.sensor is not None:
                 self.sensor.destroy()
                 self.surface = None
+            print(f"CAMERA_MANAGER: set_sensor: attach_to={self._parent}")
             self.sensor = self._parent.get_world().spawn_actor(
                 self.sensors[index][-1],
                 self._camera_transforms[self.transform_index][0],
-                attach_to=self._parent,
+                attach_to=self._parent,  # 是player
                 attachment_type=self._camera_transforms[self.transform_index][1])
             # We need to pass the lambda a weak reference to self to avoid
             # circular reference.
@@ -1200,6 +1250,107 @@ class CameraManager(object):
             image.save_to_disk('_out/%08d' % image.frame)
 
 
+class RecordManager(object):
+    def __init__(self, args, carla_world, client):
+        self.rec_path = args.rec_path
+        self.world = carla_world
+        self.client = client
+        self.latest_file = None
+        self.last_hero_id = None
+        self.last_player = None
+
+        self.load_map('Town10HD')
+        self.find_latest_recording()
+        time.sleep(1)
+        self.search_car_by_id()
+
+    # UPDATE0109：切换地图
+    def load_map(self, map_name='Town10HD'):
+        """
+        Load a specific map in CARLA.
+        :param client: CARLA client instance
+        :param map_name: Name of the map to load (e.g., 'Town01', 'Town02')
+        """
+        world = self.world
+        current_map_name = world.get_map().name.split('/')[-1]
+        if current_map_name != map_name:
+            print(f"RCORD_MANAGER: Loading new map: {map_name}")
+            self.client.load_world(map_name)
+            world = self.client.get_world()
+            print(f"RCORD_MANAGER: Map loaded: {world.get_map().name.split('/')[-1]}")
+        else:
+            print(f"RCORD_MANAGER: Already on the desired map: {current_map_name}")
+
+    def find_latest_recording(self):
+        """
+        在指定目录下查找符合命名模式的最新记录文件，并返回文件路径和对应的player_id。
+
+        参数:
+        self.rec_path (str): 需要搜索的目录路径
+
+        返回:
+        tuple: (文件路径, player_id) 或 (None, None) 如果未找到匹配文件
+        """
+        # 正则表达式匹配模式，提取player_id
+        pattern = re.compile(r'manual_recording(\d+)\.rec')
+
+        # 初始化变量保存最新文件信息
+        latest_file = None
+        latest_time = 0
+        latest_id = None
+
+        # 检查目录是否存在
+        if not os.path.isdir(self.rec_path):
+            raise NotADirectoryError(f"RCORD_MANAGER: 路径 {self.rec_path} 不是一个有效的目录")
+
+        # 遍历目录中的所有文件
+        for filename in os.listdir(self.rec_path):
+            # 匹配文件名模式
+            match = pattern.match(filename)
+            if match:
+                # 提取player_id
+                player_id = int(match.group(1))
+                file_path = os.path.join(self.rec_path, filename)
+
+                # 获取文件修改时间
+                try:
+                    mod_time = os.path.getmtime(file_path)
+                except OSError as e:
+                    print(f"RCORD_MANAGER: 无法获取文件 {file_path} 的时间戳: {str(e)}")
+                    continue
+
+                # 更新最新文件信息
+                if mod_time > latest_time:
+                    latest_time = mod_time
+                    latest_file = file_path
+                    latest_id = player_id
+
+        # 返回结果
+        if latest_file:
+            self.latest_file = latest_file
+            self.last_hero_id = latest_id
+            self.client.replay_file(self.latest_file, 0, 0, 0)
+            print(f"RCORD_MANAGER: 开始回放： latest_file: {self.latest_file}, latest_id: {self.last_hero_id}")
+
+    def search_car_by_id(self):
+        # 获取世界中所有的演员
+        all_actors = self.world.get_actors()
+        # print("all_actors: ", all_actors)
+        # 根据ID查找车辆
+        target_vehicle = None
+        for actor in all_actors:
+            # print(
+            #     f"World.search_car_by_id, Searching for actor: {actor.id}, actor: {actor}, {actor.id == self.last_hero_id}, {isinstance(actor, carla.Vehicle)}")
+            # print(f"tpye actor.id: {type(actor.id)}, type target_id: {type(self.last_hero_id)}")
+            if actor.id == self.last_hero_id and isinstance(actor, carla.Vehicle):
+                target_vehicle = actor
+                print(f"RCORD_MANAGER: 找到了ID为 {target_vehicle.id} 的上一次回放的hero车辆 in Record Manager.")
+                self.last_player = target_vehicle
+
+        if target_vehicle is None:
+            print("RCORD_MANAGER: 未找到上一次回放的hero车辆 in Record Manager.")
+
+
 # ==============================================================================
 # -- game_loop() ---------------------------------------------------------------
 # ==============================================================================
@@ -1213,21 +1364,22 @@ def game_loop(args):
 
     try:
         client = carla.Client(args.host, args.port)
-        client.set_timeout(20.0)
+        client.set_timeout(20.0)  # 超时时间
 
         sim_world = client.get_world()
-        if args.sync:
+        if args.sync:  # 如果设置为同步模式
             original_settings = sim_world.get_settings()
             settings = sim_world.get_settings()
-            if not settings.synchronous_mode:
+            if not settings.synchronous_mode:  # 如果settings是异步模式，设置为同步模式，并且设置固定步长
                 settings.synchronous_mode = True
                 settings.fixed_delta_seconds = 0.05
             sim_world.apply_settings(settings)
 
-            traffic_manager = client.get_trafficmanager()
+            traffic_manager = client.get_trafficmanager()  # https://carla.readthedocs.io/en/latest/adv_traffic_manager/
+            # https://carla.readthedocs.io/en/latest/python_api/#carlatrafficmanager
             traffic_manager.set_synchronous_mode(True)
 
-        if args.autopilot and not sim_world.get_settings().synchronous_mode:
+        if args.autopilot and not sim_world.get_settings().synchronous_mode:  # 如果是自动驾驶而且是异步模式的话
             print("WARNING: You are currently in asynchronous mode and could "
                   "experience some issues with the traffic simulation")
 
@@ -1238,10 +1390,13 @@ def game_loop(args):
         pygame.display.flip()
 
         hud = HUD(args.width, args.height)
-        world = World(sim_world, hud, args)
+        record = RecordManager(args, sim_world, client)
+        if record.last_player is not None:
+            print(f"GAME_LOOP: record.last_player is not None: {record.last_player}")
+            world = World(sim_world, hud, args, last_player=record.last_player)
+        else:
+            world = World(sim_world, hud, args)
         controller = KeyboardControl(world, args.autopilot)
-
-
 
         if args.sync:
             sim_world.tick()
@@ -1261,10 +1416,10 @@ def game_loop(args):
 
     finally:
 
-        if original_settings:
+        if original_settings:  # 退回到原本的设置
             sim_world.apply_settings(original_settings)
 
-        if (world and world.recording_enabled):
+        if (world and world.recording_enabled):  # 停止record
             client.stop_recorder()
 
         if world is not None:
@@ -1309,8 +1464,8 @@ def main():
     argparser.add_argument(
         '--filter',
         metavar='PATTERN',
-        default='vehicle.*',
-        help='actor filter (default: "vehicle.*")')
+        default='vehicle.tesla.model3',
+        help='actor filter (default: "vehicle.tesla.model3", if you want random, try "vehicle.*")')
     argparser.add_argument(
         '--generation',
         metavar='G',
@@ -1327,9 +1482,20 @@ def main():
         type=float,
         help='Gamma correction of the camera (default: 2.2)')
     argparser.add_argument(
+        # 默认是异步模式，也就是说是与现实世界时间速度一样。但是在自动驾驶开始的时候，推荐同步模式（榨干电脑性能的方式）。
         '--sync',
         action='store_true',
         help='Activate synchronous mode execution')
+    argparser.add_argument(
+        '--map',
+        metavar='MAP_NAME',
+        default='Town10HD',
+        help='Name of the map to load (default: Town10HD)')
+    argparser.add_argument(
+        '--rec_path',
+        metavar='RECORDING_PATH',
+        default='/home/heihuhu/.config/Epic/CarlaUE4/Saved',
+        help='Direct of the RECORDING_PATH to load (default: /home/heihuhu/.config/Epic/CarlaUE4/Saved)')
     args = argparser.parse_args()
 
     args.width, args.height = [int(x) for x in args.res.split('x')]

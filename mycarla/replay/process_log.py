@@ -227,15 +227,15 @@ def process_frames(frames_data, target_id):
     return results
 
 
-def process_record(input_file, json_filename, target_id):
+def process_record(input_filename, json_filename, target_id):
     """
     将未处理的可阅读日志文件转换为格式化的json文件
-    :param input_file:未处理的可阅读日志文件
+    :param input_filename:未处理的可阅读日志文件
     :param json_filename:输出的格式化的json文件
     :param target_id:hero的id
     """
     # 读取文件
-    with open(input_file, 'r') as f:
+    with open(input_filename, 'r') as f:
         content = f.read()
 
     # 分解成帧
