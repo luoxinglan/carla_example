@@ -126,6 +126,7 @@ def main():
     argparser.add_argument(
         '-s', '--seed',
         metavar='S',
+        default=0,
         type=int,
         help='Set random device seed and deterministic mode for Traffic Manager')
     argparser.add_argument(

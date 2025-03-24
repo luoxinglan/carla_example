@@ -309,10 +309,12 @@ class World(object):
         if self.player is not None:  # 如果有player，那么就销毁原来的车，然后在原来的位置上重新生成新车
             print(f"self.player in World.restart: {self.player}, vehicle.role_name={self.actor_role_name} BEFORE")
             self.player_id = self.player.id
-            spawn_point = self.player.get_transform()
-            spawn_point.location.z += 2.0
-            spawn_point.rotation.roll = 0.0
-            spawn_point.rotation.pitch = 0.0
+            # spawn_point = self.player.get_transform()
+            # spawn_point.location.z += 2.0
+            # spawn_point.rotation.roll = 0.0
+            # spawn_point.rotation.pitch = 0.0
+            spawn_points = self.map.get_spawn_points()
+            spawn_point = random.choice(spawn_points) if spawn_points else carla.Transform()
             self.destroy()  # 那么就销毁原来的车
             self.player = self.world.try_spawn_actor(blueprint, spawn_point)  # 在原来的位置上重新生成新车
             print(f"self.player in World.restart: {self.player}, vehicle.role_name={self.actor_role_name} AFTER")
@@ -409,6 +411,7 @@ class World(object):
             self.lane_invasion_sensor.sensor,
             self.gnss_sensor.sensor,
             self.imu_sensor.sensor]
+        self.imu_sensor.destroy()
         for sensor in sensors:
             if sensor is not None:
                 sensor.stop()
@@ -889,9 +892,10 @@ class CollisionSensor(object):
     def __init__(self, parent_actor, hud):
         self.sensor = None
         self.history = []
-        self._parent = parent_actor
+        self._parent = parent_actor  # car-player
         self.hud = hud
-        world = self._parent.get_world()
+        self.collided = False
+        world = self._parent.get_world()  # sim-world
         bp = world.get_blueprint_library().find('sensor.other.collision')
         self.sensor = world.spawn_actor(bp, carla.Transform(), attach_to=self._parent)
         # We need to pass the lambda a weak reference to self to avoid circular
@@ -917,6 +921,10 @@ class CollisionSensor(object):
         self.history.append((event.frame, intensity))
         if len(self.history) > 4000:
             self.history.pop(0)
+
+        print("collision!!!!!!!!!!!!!!!!!!!!!")
+        # self.user_world.restart()
+        self.collided = True
 
 
 # ==============================================================================
@@ -985,6 +993,9 @@ class GnssSensor(object):
 
 class IMUSensor(object):
     def __init__(self, parent_actor):
+        self.steer = None
+        self.throttle = None
+        self.speed = None
         self.sensor = None
         self._parent = parent_actor
         self.accelerometer = (0.0, 0.0, 0.0)
@@ -999,6 +1010,10 @@ class IMUSensor(object):
         weak_self = weakref.ref(self)
         self.sensor.listen(
             lambda sensor_data: IMUSensor._IMU_callback(weak_self, sensor_data))
+
+        # Start listening for control data
+        self.world = world
+        self.tick_event = self.world.on_tick(lambda timestamp: IMUSensor._tick_callback(weak_self, timestamp))
 
     @staticmethod
     def _IMU_callback(weak_self, sensor_data):
@@ -1015,6 +1030,25 @@ class IMUSensor(object):
             max(limits[0], min(limits[1], math.degrees(sensor_data.gyroscope.y))),
             max(limits[0], min(limits[1], math.degrees(sensor_data.gyroscope.z))))
         self.compass = math.degrees(sensor_data.compass)
+
+    @staticmethod
+    def _tick_callback(weak_self, timestamp):
+        self = weak_self()
+        if not self or not self._parent.is_alive:
+            return
+        control = self._parent.get_control()
+        self.throttle = control.throttle
+        self.steer = control.steer
+
+        velocity = self._parent.get_velocity()
+        self.speed = math.sqrt(velocity.x ** 2 + velocity.y ** 2 + velocity.z ** 2) * 3.6  # Convert m/s to km/h
+
+        print(f"Throttle: {self.throttle}, Steer: {self.steer}, Speed: {self.speed} km/h")
+
+    def destroy(self):
+        if self.tick_event is not None:
+            self.world.remove_on_tick(self.tick_event)
+            self.tick_event = None
 
 
 # ==============================================================================
@@ -1391,11 +1425,12 @@ def game_loop(args):
 
         hud = HUD(args.width, args.height)
         record = RecordManager(args, sim_world, client)
-        if record.last_player is not None:
-            print(f"GAME_LOOP: record.last_player is not None: {record.last_player}")
-            world = World(sim_world, hud, args, last_player=record.last_player)
-        else:
-            world = World(sim_world, hud, args)
+        # if record.last_player is not None:
+        #     print(f"GAME_LOOP: record.last_player is not None: {record.last_player}")
+        #     world = World(sim_world, hud, args, last_player=record.last_player)
+        # else:
+        #     world = World(sim_world, hud, args)
+        world = World(sim_world, hud, args)
         controller = KeyboardControl(world, args.autopilot)
 
         if args.sync:
@@ -1412,6 +1447,8 @@ def game_loop(args):
                 return
             world.tick(clock)
             world.render(display)
+            if world.collision_sensor.collided:
+                world.restart()
             pygame.display.flip()
 
     finally:
